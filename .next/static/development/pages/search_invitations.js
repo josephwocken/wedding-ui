@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\josep\\dev\\hello-next\\components\\Header.js";
+var _jsxFileName = "C:\\Users\\josep\\dev\\wedding-ui\\components\\Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -103,7 +103,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
-var _jsxFileName = "C:\\Users\\josep\\dev\\hello-next\\components\\MyLayout.js";
+var _jsxFileName = "C:\\Users\\josep\\dev\\wedding-ui\\components\\MyLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -4973,9 +4973,9 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Chello-next%5Cpages%5Csearch_invitations.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Cwedding-ui%5Cpages%5Csearch_invitations.js!./":
 /*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Chello-next%5Cpages%5Csearch_invitations.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Cwedding-ui%5Cpages%5Csearch_invitations.js ***!
   \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -8736,7 +8736,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\josep\\dev\\hello-next\\pages\\search_invitations.js";
+var _jsxFileName = "C:\\Users\\josep\\dev\\wedding-ui\\pages\\search_invitations.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
@@ -8890,12 +8890,12 @@ function SearchInvitationsLayout() {
 
 /***/ 2:
 /*!**********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Chello-next%5Cpages%5Csearch_invitations.js ***!
+  !*** multi next-client-pages-loader?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Cwedding-ui%5Cpages%5Csearch_invitations.js ***!
   \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Chello-next%5Cpages%5Csearch_invitations.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Chello-next%5Cpages%5Csearch_invitations.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Cwedding-ui%5Cpages%5Csearch_invitations.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsearch_invitations&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Cwedding-ui%5Cpages%5Csearch_invitations.js!./");
 
 
 /***/ }),
