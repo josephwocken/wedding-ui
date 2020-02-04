@@ -1,11 +1,14 @@
 import Layout from '../components/MyLayout';
+import Link from 'next/link';
 
 class SearchInvitations extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       searchStringInput: '',
-      matchingInvitations: null
+      matchingInvitations: [],
+      error: false,
+      isLoaded: false
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -15,7 +18,7 @@ class SearchInvitations extends React.Component {
 
   handleChange(event) {
     this.setState({
-        searchStringInput: event.target.value.toUpperCase()
+        searchStringInput: event.target.value
     });
   }
 
@@ -52,27 +55,81 @@ class SearchInvitations extends React.Component {
     .then((data) => {
       console.log('Success:', data);
       this.setState({
-        'matchingInvitations': JSON.stringify(data)
+        'matchingInvitations': data,
+        'isLoaded': true,
+        'error': false
       })
     })
     .catch((error) => {
       console.error('Error:', error);
+      this.setState({
+        'isLoaded': true,
+        'error': true
+      })
     });
 
   }
 
   render() {
+    const { searchStringInput, matchingInvitations, isLoaded, error } = this.state
+
+    var invitationToGuestsMap = new Map()
+    if (matchingInvitations) {
+      for (var i = 0; i < matchingInvitations.length; i++) {
+        let invitation = matchingInvitations[i]
+        console.log(`invitation = ${invitation}`)
+        var guestsForInvitation = ''
+        if (invitation && invitation.guests) {
+          for (var j = 0; j < invitation.guests.length; j++) {
+            guestsForInvitation += invitation.guests[j].guest_name
+            if (j != invitation.guests.length - 1) {
+              guestsForInvitation += ', '
+            }
+          }
+        }
+        invitationToGuestsMap[invitation.invitation_id] = guestsForInvitation
+      }
+    } else {
+      console.log(`no matching invitations`)
+    }
+
+
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Name:
-            <input type="text" value={this.state.searchStringInput} onChange={this.handleChange} />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
-        <br></br>
-        Result: {this.state.matchingInvitations}
+        <div>
+          <form onSubmit={this.handleSubmit}>
+            <label>
+              Name:
+              <input type="text" value={this.state.searchStringInput} onChange={this.handleChange} />
+            </label>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+        <div>
+          <br></br>
+          <table>
+            <thead>
+              <tr>
+                <th>Invitation ID</th>
+                <th>Guest(s)</th>
+              </tr>
+            </thead>
+            <tbody>
+              {matchingInvitations.map(invitation =>
+                <tr key={invitation.invitation_id}>
+                  <td>
+                    <Link href={{ pathname: "/invitation", query: { invitationId: invitation.invitation_id}}}>
+                      <a>{invitation.invitation_id}</a>
+                    </Link>
+                  </td>
+                  <td>
+                    {invitationToGuestsMap[invitation.invitation_id]}
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
       </div>
     );
   }

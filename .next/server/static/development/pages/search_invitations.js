@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2065,23 +2065,31 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SearchInvitationsLayout; });
-/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_map__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/map */ "./node_modules/@babel/runtime-corejs2/core-js/map.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_map__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_map__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+
 
 var _jsxFileName = "C:\\Users\\josep\\dev\\wedding-ui\\pages\\search_invitations.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
-class SearchInvitations extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+
+class SearchInvitations extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
   constructor(props) {
     super(props);
     this.state = {
       searchStringInput: '',
-      matchingInvitations: null
+      matchingInvitations: [],
+      error: false,
+      isLoaded: false
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -2090,7 +2098,7 @@ class SearchInvitations extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Com
 
   handleChange(event) {
     this.setState({
-      searchStringInput: event.target.value.toUpperCase()
+      searchStringInput: event.target.value
     });
   }
 
@@ -2106,14 +2114,14 @@ class SearchInvitations extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Com
     let requestBody = {
       'guest_search_string': '' + searchString + ''
     };
-    console.log(`request body: ${_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(requestBody)}`);
+    console.log(`request body: ${_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(requestBody)}`);
     const invitationSearchResponse = fetch('http://localhost:8080/guest_invitations/search', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       },
-      body: _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(requestBody)
+      body: _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(requestBody)
     }).then(function (response) {
       if (!response.ok) {
         throw Error(response.statusText);
@@ -2125,31 +2133,73 @@ class SearchInvitations extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Com
     }).then(data => {
       console.log('Success:', data);
       this.setState({
-        'matchingInvitations': _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data)
+        'matchingInvitations': data,
+        'isLoaded': true,
+        'error': false
       });
     }).catch(error => {
       console.error('Error:', error);
+      this.setState({
+        'isLoaded': true,
+        'error': true
+      });
     });
   }
 
   render() {
+    const {
+      searchStringInput,
+      matchingInvitations,
+      isLoaded,
+      error
+    } = this.state;
+    var invitationToGuestsMap = new _babel_runtime_corejs2_core_js_map__WEBPACK_IMPORTED_MODULE_0___default.a();
+
+    if (matchingInvitations) {
+      for (var i = 0; i < matchingInvitations.length; i++) {
+        let invitation = matchingInvitations[i];
+        console.log(`invitation = ${invitation}`);
+        var guestsForInvitation = '';
+
+        if (invitation && invitation.guests) {
+          for (var j = 0; j < invitation.guests.length; j++) {
+            guestsForInvitation += invitation.guests[j].guest_name;
+
+            if (j != invitation.guests.length - 1) {
+              guestsForInvitation += ', ';
+            }
+          }
+        }
+
+        invitationToGuestsMap[invitation.invitation_id] = guestsForInvitation;
+      }
+    } else {
+      console.log(`no matching invitations`);
+    }
+
     return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 98
+      },
+      __self: this
+    }, __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99
       },
       __self: this
     }, __jsx("form", {
       onSubmit: this.handleSubmit,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 100
       },
       __self: this
     }, __jsx("label", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68
+        lineNumber: 101
       },
       __self: this
     }, "Name:", __jsx("input", {
@@ -2158,7 +2208,7 @@ class SearchInvitations extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Com
       onChange: this.handleChange,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 103
       },
       __self: this
     })), __jsx("input", {
@@ -2166,37 +2216,116 @@ class SearchInvitations extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Com
       value: "Submit",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72
+        lineNumber: 105
       },
       __self: this
-    })), __jsx("br", {
+    }))), __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74
+        lineNumber: 108
       },
       __self: this
-    }), "Result: ", this.state.matchingInvitations);
+    }, __jsx("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 109
+      },
+      __self: this
+    }), __jsx("table", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110
+      },
+      __self: this
+    }, __jsx("thead", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 111
+      },
+      __self: this
+    }, __jsx("tr", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 112
+      },
+      __self: this
+    }, __jsx("th", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 113
+      },
+      __self: this
+    }, "Invitation ID"), __jsx("th", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114
+      },
+      __self: this
+    }, "Guest(s)"))), __jsx("tbody", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117
+      },
+      __self: this
+    }, matchingInvitations.map(invitation => __jsx("tr", {
+      key: invitation.invitation_id,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 119
+      },
+      __self: this
+    }, __jsx("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 120
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      href: {
+        pathname: "/invitation",
+        query: {
+          invitationId: invitation.invitation_id
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 121
+      },
+      __self: this
+    }, __jsx("a", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 122
+      },
+      __self: this
+    }, invitation.invitation_id))), __jsx("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 125
+      },
+      __self: this
+    }, invitationToGuestsMap[invitation.invitation_id])))))));
   }
 
 }
 
 function SearchInvitationsLayout() {
-  return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 140
     },
     __self: this
   }, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 141
     },
     __self: this
   }), __jsx(SearchInvitations, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 142
     },
     __self: this
   }));
@@ -2204,7 +2333,7 @@ function SearchInvitationsLayout() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*******************************************!*\
   !*** multi ./pages/search_invitations.js ***!
   \*******************************************/

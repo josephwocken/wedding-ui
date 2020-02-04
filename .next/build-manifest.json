@@ -16,11 +16,7 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/guest_list": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
+    "/invitation": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
