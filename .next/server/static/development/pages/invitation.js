@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -472,6 +472,33 @@ class TableRow extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (TableRow);
+
+/***/ }),
+
+/***/ "./components/TableStyle.js":
+/*!**********************************!*\
+  !*** ./components/TableStyle.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\josep\\dev\\wedding-ui\\components\\TableStyle.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const TableStyle = props => __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}, props.children);
+
+/* harmony default export */ __webpack_exports__["default"] = (TableStyle);
 
 /***/ }),
 
@@ -2309,13 +2336,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
 /* harmony import */ var _components_Table__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Table */ "./components/Table.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_TableStyle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/TableStyle */ "./components/TableStyle.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Dropdown */ "react-bootstrap/Dropdown");
+/* harmony import */ var react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_bootstrap_table__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap-table */ "react-bootstrap-table");
+/* harmony import */ var react_bootstrap_table__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_7__);
 var _jsxFileName = "C:\\Users\\josep\\dev\\wedding-ui\\pages\\invitation.js";
-
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
 
 
 
@@ -2331,7 +2366,7 @@ class Invitation extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
     console.log(`invitation id: ${invitationId}`);
     const myUrl = 'http://localhost:8080/invitations/' + invitationId;
     console.log(`url: ${myUrl}`);
-    const response = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default()(myUrl);
+    const response = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default()(myUrl);
     const data = await response.json();
     return {
       invitation: data
@@ -2340,46 +2375,99 @@ class Invitation extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
 
   render() {
     const invitation = this.props.invitation;
-    const header = ['Guest', 'Attending', 'Meal'];
-    const rows = [];
+    const guests = [];
 
     if (invitation) {
       for (var i = 0; i < invitation.guests.length; i++) {
-        let guest = invitation.guests[i];
-        rows.push([guest.guest_id, guest.guest_name, guest.attending, guest.invitation_id]);
+        let guestElem = invitation.guests[i];
+        guests.push({
+          guest: guestElem.guest_name,
+          attending: guestElem.attending,
+          meal: guestElem.meal
+        });
       }
     }
 
-    return __jsx("div", {
+    if (!invitation) {
+      return __jsx("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }, "'loading...'");
+    } else {
+      console.log(`got invitation: ${invitation.guests[0].attending}`);
+    } // https://github.com/AllenFang/react-bootstrap-table/blob/master/examples/js/cell-edit/custom-cell-edit-table.js
+
+
+    return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 51
       },
       __self: this
-    }, __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    }, __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_7__["BootstrapTable"], {
+      data: guests,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 52
       },
       __self: this
-    }, __jsx("a", {
+    }, __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_7__["TableHeaderColumn"], {
+      dataField: "guest",
+      isKey: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 53
       },
       __self: this
-    }, "invitation page"), __jsx(_components_Table__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      tableHeader: header,
-      tableRows: rows,
+    }, "Guest"), __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_7__["TableHeaderColumn"], {
+      dataField: "attending",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 54
       },
       __self: this
-    })));
+    }, "Attending"), __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_7__["TableHeaderColumn"], {
+      dataField: "meal",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55
+      },
+      __self: this
+    }, "Meal")));
   }
 
-} // {
+} // <Layout>
+//   <TableStyle>
+//     <table>
+//       <thead>
+//         <tr>
+//           <th>Guest</th>
+//           <th>Attending</th>
+//           <th>Meal</th>
+//         </tr>
+//       </thead>
+//       <tbody>
+//         {invitation.guests.map(guest =>
+//           <tr key={guest.guest_id}>
+//             <td>
+//               {guest.guest_name}
+//             </td>
+//             <td>
+//               {guest.attending.toString()}
+//             </td>
+//             <td>
+//               {guest.meal}
+//             </td>
+//           </tr>
+//         )}
+//       </tbody>
+//     </table>
+//   </TableStyle>
+// </Layout>
+// { <Table tableHeader={header} tableRows={rows}/>
 //     "invitation_id": 4,
 //     "rsvped": false,
 //     "guests": [
@@ -2397,7 +2485,7 @@ class Invitation extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
 
 /***/ }),
 
-/***/ 8:
+/***/ 3:
 /*!***********************************!*\
   !*** multi ./pages/invitation.js ***!
   \***********************************/
@@ -2560,6 +2648,28 @@ module.exports = require("prop-types-exact");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-bootstrap-table":
+/*!****************************************!*\
+  !*** external "react-bootstrap-table" ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap-table");
+
+/***/ }),
+
+/***/ "react-bootstrap/Dropdown":
+/*!*******************************************!*\
+  !*** external "react-bootstrap/Dropdown" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Dropdown");
 
 /***/ }),
 
