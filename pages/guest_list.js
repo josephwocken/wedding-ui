@@ -12,6 +12,14 @@ const GuestList = props => (
         </li>
       ))}
     </ul>
+    <style jsx>{`
+      li {
+        font-family: 'Arial';
+      }
+      h1 {
+        font-family: 'Arial';
+      }
+    `}</style>
   </Layout>
 );
 

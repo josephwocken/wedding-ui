@@ -9,82 +9,90 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\josep\\dev\\wedding-ui\\components\\Header.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  textDecoration: 'underline'
 };
 
 var Header = function Header() {
   return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    style: linkStyle,
+    className: "jsx-3512935604",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "jsx-3512935604",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, __jsx("a", {
-    style: linkStyle,
+  }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
-  }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/guest_list",
+  }, __jsx("a", {
+    className: "jsx-3512935604",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, __jsx("a", {
-    style: linkStyle,
+  }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/guest_list",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
-  }, "Guest List")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/search_invitations",
+  }, __jsx("a", {
+    className: "jsx-3512935604",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, __jsx("a", {
-    style: linkStyle,
+  }, "Guest List")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/search_invitations",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
-  }, "Search Invitations")));
+  }, __jsx("a", {
+    className: "jsx-3512935604",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "Search Invitations")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "3512935604",
+    __self: this
+  }, "h1.jsx-3512935604,a.jsx-3512935604{font-family:'Arial';}ul.jsx-3512935604{padding:0;}li.jsx-3512935604{list-style:none;margin:5px 0;}a.jsx-3512935604{-webkit-text-decoration:underline;text-decoration:underline;color:blue;margin:15px;}a.jsx-3512935604:hover{opacity:0.6;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcam9zZXBcXGRldlxcd2VkZGluZy11aVxcY29tcG9uZW50c1xcSGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNCZ0IsQUFJNkIsQUFJVixBQUlNLEFBS1UsQUFNZCxVQWRkLEVBZUEsSUFYZSxJQVJmLFNBU0EsK0JBSWEsV0FDQyxZQUNkIiwiZmlsZSI6IkM6XFxVc2Vyc1xcam9zZXBcXGRldlxcd2VkZGluZy11aVxcY29tcG9uZW50c1xcSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcbmNvbnN0IGxpbmtTdHlsZSA9IHtcclxuICBtYXJnaW5SaWdodDogMTUsXHJcbiAgdGV4dERlY29yYXRpb246ICd1bmRlcmxpbmUnXHJcbn07XHJcblxyXG5cclxuY29uc3QgSGVhZGVyID0gKCkgPT4gKFxyXG4gIDxkaXY+XHJcbiAgICA8TGluayBocmVmPVwiL1wiPlxyXG4gICAgICA8YT5Ib21lPC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9hYm91dFwiPlxyXG4gICAgICA8YT5BYm91dDwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxMaW5rIGhyZWY9XCIvZ3Vlc3RfbGlzdFwiPlxyXG4gICAgICA8YT5HdWVzdCBMaXN0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9zZWFyY2hfaW52aXRhdGlvbnNcIj5cclxuICAgICAgPGE+U2VhcmNoIEludml0YXRpb25zPC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICBoMSxcclxuICAgICAgYSB7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6ICdBcmlhbCc7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIHVsIHtcclxuICAgICAgICBwYWRkaW5nOiAwO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBsaSB7XHJcbiAgICAgICAgbGlzdC1zdHlsZTogbm9uZTtcclxuICAgICAgICBtYXJnaW46IDVweCAwO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBhIHtcclxuICAgICAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxuICAgICAgICBjb2xvcjogYmx1ZTtcclxuICAgICAgICBtYXJnaW46IDE1cHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIGE6aG92ZXIge1xyXG4gICAgICAgIG9wYWNpdHk6IDAuNjtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pXHJcblxyXG5leHBvcnQgZGVmYXVsdCBIZWFkZXI7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\josep\\\\dev\\\\wedding-ui\\\\components\\\\Header.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -531,6 +539,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/get-iterator */ "./n
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./node_modules/core-js/library/fn/is-iterable.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "./node_modules/core-js/library/fn/json/stringify.js");
 
 /***/ }),
 
@@ -1809,6 +1828,22 @@ module.exports = __webpack_require__(/*! ../modules/core.get-iterator */ "./node
 __webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
 __webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
 module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_modules/core-js/library/modules/core.is-iterable.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/json/stringify.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/json/stringify.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js");
+var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
+module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
+  return $JSON.stringify.apply($JSON, arguments);
+};
 
 
 /***/ }),
@@ -10941,6 +10976,201 @@ Popper.Defaults = Defaults;
 //# sourceMappingURL=popper.js.map
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/process/browser.js":
+/*!*****************************************!*\
+  !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// shim for using process in browser
+var process = module.exports = {};
+
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+
+var cachedSetTimeout;
+var cachedClearTimeout;
+
+function defaultSetTimout() {
+    throw new Error('setTimeout has not been defined');
+}
+function defaultClearTimeout () {
+    throw new Error('clearTimeout has not been defined');
+}
+(function () {
+    try {
+        if (typeof setTimeout === 'function') {
+            cachedSetTimeout = setTimeout;
+        } else {
+            cachedSetTimeout = defaultSetTimout;
+        }
+    } catch (e) {
+        cachedSetTimeout = defaultSetTimout;
+    }
+    try {
+        if (typeof clearTimeout === 'function') {
+            cachedClearTimeout = clearTimeout;
+        } else {
+            cachedClearTimeout = defaultClearTimeout;
+        }
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+} ())
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) {
+        //normal enviroments in sane situations
+        return setTimeout(fun, 0);
+    }
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch(e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+            return cachedSetTimeout.call(null, fun, 0);
+        } catch(e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+            return cachedSetTimeout.call(this, fun, 0);
+        }
+    }
+
+
+}
+function runClearTimeout(marker) {
+    if (cachedClearTimeout === clearTimeout) {
+        //normal enviroments in sane situations
+        return clearTimeout(marker);
+    }
+    // if clearTimeout wasn't available but was latter defined
+    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+        cachedClearTimeout = clearTimeout;
+        return clearTimeout(marker);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedClearTimeout(marker);
+    } catch (e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+            return cachedClearTimeout.call(null, marker);
+        } catch (e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+            return cachedClearTimeout.call(this, marker);
+        }
+    }
+
+
+
+}
+var queue = [];
+var draining = false;
+var currentQueue;
+var queueIndex = -1;
+
+function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
+    draining = false;
+    if (currentQueue.length) {
+        queue = currentQueue.concat(queue);
+    } else {
+        queueIndex = -1;
+    }
+    if (queue.length) {
+        drainQueue();
+    }
+}
+
+function drainQueue() {
+    if (draining) {
+        return;
+    }
+    var timeout = runTimeout(cleanUpNextTick);
+    draining = true;
+
+    var len = queue.length;
+    while(len) {
+        currentQueue = queue;
+        queue = [];
+        while (++queueIndex < len) {
+            if (currentQueue) {
+                currentQueue[queueIndex].run();
+            }
+        }
+        queueIndex = -1;
+        len = queue.length;
+    }
+    currentQueue = null;
+    draining = false;
+    runClearTimeout(timeout);
+}
+
+process.nextTick = function (fun) {
+    var args = new Array(arguments.length - 1);
+    if (arguments.length > 1) {
+        for (var i = 1; i < arguments.length; i++) {
+            args[i - 1] = arguments[i];
+        }
+    }
+    queue.push(new Item(fun, args));
+    if (queue.length === 1 && !draining) {
+        runTimeout(drainQueue);
+    }
+};
+
+// v8 likes predictible objects
+function Item(fun, array) {
+    this.fun = fun;
+    this.array = array;
+}
+Item.prototype.run = function () {
+    this.fun.apply(null, this.array);
+};
+process.title = 'browser';
+process.browser = true;
+process.env = {};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
+
+function noop() {}
+
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
+
+process.binding = function (name) {
+    throw new Error('process.binding is not supported');
+};
+
+process.cwd = function () { return '/' };
+process.chdir = function (dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() { return 0; };
+
 
 /***/ }),
 
@@ -28571,6 +28801,699 @@ try {
 
 /***/ }),
 
+/***/ "./node_modules/string-hash/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/string-hash/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function hash(str) {
+  var hash = 5381,
+      i    = str.length;
+
+  while(i) {
+    hash = (hash * 33) ^ str.charCodeAt(--i);
+  }
+
+  /* JavaScript does bitwise operations (like XOR, above) on 32-bit signed
+   * integers. Since we want the results to be always positive, convert the
+   * signed int to an unsigned by doing an unsigned bitshift. */
+  return hash >>> 0;
+}
+
+module.exports = hash;
+
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/dist/lib/stylesheet.js":
+/*!********************************************************!*\
+  !*** ./node_modules/styled-jsx/dist/lib/stylesheet.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+/*
+Based on Glamor's sheet
+https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92ca2879/src/sheet.js
+*/
+var isProd = typeof process !== 'undefined' && process.env && "development" === 'production';
+
+var isString = function isString(o) {
+  return Object.prototype.toString.call(o) === '[object String]';
+};
+
+var StyleSheet =
+/*#__PURE__*/
+function () {
+  function StyleSheet(_temp) {
+    var _ref = _temp === void 0 ? {} : _temp,
+        _ref$name = _ref.name,
+        name = _ref$name === void 0 ? 'stylesheet' : _ref$name,
+        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
+        optimizeForSpeed = _ref$optimizeForSpeed === void 0 ? isProd : _ref$optimizeForSpeed,
+        _ref$isBrowser = _ref.isBrowser,
+        isBrowser = _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
+
+    invariant(isString(name), '`name` must be a string');
+    this._name = name;
+    this._deletedRulePlaceholder = "#" + name + "-deleted-rule____{}";
+    invariant(typeof optimizeForSpeed === 'boolean', '`optimizeForSpeed` must be a boolean');
+    this._optimizeForSpeed = optimizeForSpeed;
+    this._isBrowser = isBrowser;
+    this._serverSheet = undefined;
+    this._tags = [];
+    this._injected = false;
+    this._rulesCount = 0;
+    var node = this._isBrowser && document.querySelector('meta[property="csp-nonce"]');
+    this._nonce = node ? node.getAttribute('content') : null;
+  }
+
+  var _proto = StyleSheet.prototype;
+
+  _proto.setOptimizeForSpeed = function setOptimizeForSpeed(bool) {
+    invariant(typeof bool === 'boolean', '`setOptimizeForSpeed` accepts a boolean');
+    invariant(this._rulesCount === 0, 'optimizeForSpeed cannot be when rules have already been inserted');
+    this.flush();
+    this._optimizeForSpeed = bool;
+    this.inject();
+  };
+
+  _proto.isOptimizeForSpeed = function isOptimizeForSpeed() {
+    return this._optimizeForSpeed;
+  };
+
+  _proto.inject = function inject() {
+    var _this = this;
+
+    invariant(!this._injected, 'sheet already injected');
+    this._injected = true;
+
+    if (this._isBrowser && this._optimizeForSpeed) {
+      this._tags[0] = this.makeStyleTag(this._name);
+      this._optimizeForSpeed = 'insertRule' in this.getSheet();
+
+      if (!this._optimizeForSpeed) {
+        if (!isProd) {
+          console.warn('StyleSheet: optimizeForSpeed mode not supported falling back to standard mode.');
+        }
+
+        this.flush();
+        this._injected = true;
+      }
+
+      return;
+    }
+
+    this._serverSheet = {
+      cssRules: [],
+      insertRule: function insertRule(rule, index) {
+        if (typeof index === 'number') {
+          _this._serverSheet.cssRules[index] = {
+            cssText: rule
+          };
+        } else {
+          _this._serverSheet.cssRules.push({
+            cssText: rule
+          });
+        }
+
+        return index;
+      },
+      deleteRule: function deleteRule(index) {
+        _this._serverSheet.cssRules[index] = null;
+      }
+    };
+  };
+
+  _proto.getSheetForTag = function getSheetForTag(tag) {
+    if (tag.sheet) {
+      return tag.sheet;
+    } // this weirdness brought to you by firefox
+
+
+    for (var i = 0; i < document.styleSheets.length; i++) {
+      if (document.styleSheets[i].ownerNode === tag) {
+        return document.styleSheets[i];
+      }
+    }
+  };
+
+  _proto.getSheet = function getSheet() {
+    return this.getSheetForTag(this._tags[this._tags.length - 1]);
+  };
+
+  _proto.insertRule = function insertRule(rule, index) {
+    invariant(isString(rule), '`insertRule` accepts only strings');
+
+    if (!this._isBrowser) {
+      if (typeof index !== 'number') {
+        index = this._serverSheet.cssRules.length;
+      }
+
+      this._serverSheet.insertRule(rule, index);
+
+      return this._rulesCount++;
+    }
+
+    if (this._optimizeForSpeed) {
+      var sheet = this.getSheet();
+
+      if (typeof index !== 'number') {
+        index = sheet.cssRules.length;
+      } // this weirdness for perf, and chrome's weird bug
+      // https://stackoverflow.com/questions/20007992/chrome-suddenly-stopped-accepting-insertrule
+
+
+      try {
+        sheet.insertRule(rule, index);
+      } catch (error) {
+        if (!isProd) {
+          console.warn("StyleSheet: illegal rule: \n\n" + rule + "\n\nSee https://stackoverflow.com/q/20007992 for more info");
+        }
+
+        return -1;
+      }
+    } else {
+      var insertionPoint = this._tags[index];
+
+      this._tags.push(this.makeStyleTag(this._name, rule, insertionPoint));
+    }
+
+    return this._rulesCount++;
+  };
+
+  _proto.replaceRule = function replaceRule(index, rule) {
+    if (this._optimizeForSpeed || !this._isBrowser) {
+      var sheet = this._isBrowser ? this.getSheet() : this._serverSheet;
+
+      if (!rule.trim()) {
+        rule = this._deletedRulePlaceholder;
+      }
+
+      if (!sheet.cssRules[index]) {
+        // @TBD Should we throw an error?
+        return index;
+      }
+
+      sheet.deleteRule(index);
+
+      try {
+        sheet.insertRule(rule, index);
+      } catch (error) {
+        if (!isProd) {
+          console.warn("StyleSheet: illegal rule: \n\n" + rule + "\n\nSee https://stackoverflow.com/q/20007992 for more info");
+        } // In order to preserve the indices we insert a deleteRulePlaceholder
+
+
+        sheet.insertRule(this._deletedRulePlaceholder, index);
+      }
+    } else {
+      var tag = this._tags[index];
+      invariant(tag, "old rule at index `" + index + "` not found");
+      tag.textContent = rule;
+    }
+
+    return index;
+  };
+
+  _proto.deleteRule = function deleteRule(index) {
+    if (!this._isBrowser) {
+      this._serverSheet.deleteRule(index);
+
+      return;
+    }
+
+    if (this._optimizeForSpeed) {
+      this.replaceRule(index, '');
+    } else {
+      var tag = this._tags[index];
+      invariant(tag, "rule at index `" + index + "` not found");
+      tag.parentNode.removeChild(tag);
+      this._tags[index] = null;
+    }
+  };
+
+  _proto.flush = function flush() {
+    this._injected = false;
+    this._rulesCount = 0;
+
+    if (this._isBrowser) {
+      this._tags.forEach(function (tag) {
+        return tag && tag.parentNode.removeChild(tag);
+      });
+
+      this._tags = [];
+    } else {
+      // simpler on server
+      this._serverSheet.cssRules = [];
+    }
+  };
+
+  _proto.cssRules = function cssRules() {
+    var _this2 = this;
+
+    if (!this._isBrowser) {
+      return this._serverSheet.cssRules;
+    }
+
+    return this._tags.reduce(function (rules, tag) {
+      if (tag) {
+        rules = rules.concat(Array.prototype.map.call(_this2.getSheetForTag(tag).cssRules, function (rule) {
+          return rule.cssText === _this2._deletedRulePlaceholder ? null : rule;
+        }));
+      } else {
+        rules.push(null);
+      }
+
+      return rules;
+    }, []);
+  };
+
+  _proto.makeStyleTag = function makeStyleTag(name, cssString, relativeToTag) {
+    if (cssString) {
+      invariant(isString(cssString), 'makeStyleTag acceps only strings as second parameter');
+    }
+
+    var tag = document.createElement('style');
+    if (this._nonce) tag.setAttribute('nonce', this._nonce);
+    tag.type = 'text/css';
+    tag.setAttribute("data-" + name, '');
+
+    if (cssString) {
+      tag.appendChild(document.createTextNode(cssString));
+    }
+
+    var head = document.head || document.getElementsByTagName('head')[0];
+
+    if (relativeToTag) {
+      head.insertBefore(tag, relativeToTag);
+    } else {
+      head.appendChild(tag);
+    }
+
+    return tag;
+  };
+
+  _createClass(StyleSheet, [{
+    key: "length",
+    get: function get() {
+      return this._rulesCount;
+    }
+  }]);
+
+  return StyleSheet;
+}();
+
+exports["default"] = StyleSheet;
+
+function invariant(condition, message) {
+  if (!condition) {
+    throw new Error("StyleSheet: " + message + ".");
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/dist/style.js":
+/*!***********************************************!*\
+  !*** ./node_modules/styled-jsx/dist/style.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.flush = flush;
+exports["default"] = void 0;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _stylesheetRegistry = _interopRequireDefault(__webpack_require__(/*! ./stylesheet-registry */ "./node_modules/styled-jsx/dist/stylesheet-registry.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
+
+var styleSheetRegistry = new _stylesheetRegistry["default"]();
+
+var JSXStyle =
+/*#__PURE__*/
+function (_Component) {
+  _inheritsLoose(JSXStyle, _Component);
+
+  function JSXStyle(props) {
+    var _this;
+
+    _this = _Component.call(this, props) || this;
+    _this.prevProps = {};
+    return _this;
+  }
+
+  JSXStyle.dynamic = function dynamic(info) {
+    return info.map(function (tagInfo) {
+      var baseId = tagInfo[0];
+      var props = tagInfo[1];
+      return styleSheetRegistry.computeId(baseId, props);
+    }).join(' ');
+  } // probably faster than PureComponent (shallowEqual)
+  ;
+
+  var _proto = JSXStyle.prototype;
+
+  _proto.shouldComponentUpdate = function shouldComponentUpdate(otherProps) {
+    return this.props.id !== otherProps.id || // We do this check because `dynamic` is an array of strings or undefined.
+    // These are the computed values for dynamic styles.
+    String(this.props.dynamic) !== String(otherProps.dynamic);
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    styleSheetRegistry.remove(this.props);
+  };
+
+  _proto.render = function render() {
+    // This is a workaround to make the side effect async safe in the "render" phase.
+    // See https://github.com/zeit/styled-jsx/pull/484
+    if (this.shouldComponentUpdate(this.prevProps)) {
+      // Updates
+      if (this.prevProps.id) {
+        styleSheetRegistry.remove(this.prevProps);
+      }
+
+      styleSheetRegistry.add(this.props);
+      this.prevProps = this.props;
+    }
+
+    return null;
+  };
+
+  return JSXStyle;
+}(_react.Component);
+
+exports["default"] = JSXStyle;
+
+function flush() {
+  var cssRules = styleSheetRegistry.cssRules();
+  styleSheetRegistry.flush();
+  return cssRules;
+}
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/dist/stylesheet-registry.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/styled-jsx/dist/stylesheet-registry.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+var _stringHash = _interopRequireDefault(__webpack_require__(/*! string-hash */ "./node_modules/string-hash/index.js"));
+
+var _stylesheet = _interopRequireDefault(__webpack_require__(/*! ./lib/stylesheet */ "./node_modules/styled-jsx/dist/lib/stylesheet.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var sanitize = function sanitize(rule) {
+  return rule.replace(/\/style/gi, '\\/style');
+};
+
+var StyleSheetRegistry =
+/*#__PURE__*/
+function () {
+  function StyleSheetRegistry(_temp) {
+    var _ref = _temp === void 0 ? {} : _temp,
+        _ref$styleSheet = _ref.styleSheet,
+        styleSheet = _ref$styleSheet === void 0 ? null : _ref$styleSheet,
+        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
+        optimizeForSpeed = _ref$optimizeForSpeed === void 0 ? false : _ref$optimizeForSpeed,
+        _ref$isBrowser = _ref.isBrowser,
+        isBrowser = _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
+
+    this._sheet = styleSheet || new _stylesheet["default"]({
+      name: 'styled-jsx',
+      optimizeForSpeed: optimizeForSpeed
+    });
+
+    this._sheet.inject();
+
+    if (styleSheet && typeof optimizeForSpeed === 'boolean') {
+      this._sheet.setOptimizeForSpeed(optimizeForSpeed);
+
+      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
+    }
+
+    this._isBrowser = isBrowser;
+    this._fromServer = undefined;
+    this._indices = {};
+    this._instancesCounts = {};
+    this.computeId = this.createComputeId();
+    this.computeSelector = this.createComputeSelector();
+  }
+
+  var _proto = StyleSheetRegistry.prototype;
+
+  _proto.add = function add(props) {
+    var _this = this;
+
+    if (undefined === this._optimizeForSpeed) {
+      this._optimizeForSpeed = Array.isArray(props.children);
+
+      this._sheet.setOptimizeForSpeed(this._optimizeForSpeed);
+
+      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
+    }
+
+    if (this._isBrowser && !this._fromServer) {
+      this._fromServer = this.selectFromServer();
+      this._instancesCounts = Object.keys(this._fromServer).reduce(function (acc, tagName) {
+        acc[tagName] = 0;
+        return acc;
+      }, {});
+    }
+
+    var _this$getIdAndRules = this.getIdAndRules(props),
+        styleId = _this$getIdAndRules.styleId,
+        rules = _this$getIdAndRules.rules; // Deduping: just increase the instances count.
+
+
+    if (styleId in this._instancesCounts) {
+      this._instancesCounts[styleId] += 1;
+      return;
+    }
+
+    var indices = rules.map(function (rule) {
+      return _this._sheet.insertRule(rule);
+    }) // Filter out invalid rules
+    .filter(function (index) {
+      return index !== -1;
+    });
+    this._indices[styleId] = indices;
+    this._instancesCounts[styleId] = 1;
+  };
+
+  _proto.remove = function remove(props) {
+    var _this2 = this;
+
+    var _this$getIdAndRules2 = this.getIdAndRules(props),
+        styleId = _this$getIdAndRules2.styleId;
+
+    invariant(styleId in this._instancesCounts, "styleId: `" + styleId + "` not found");
+    this._instancesCounts[styleId] -= 1;
+
+    if (this._instancesCounts[styleId] < 1) {
+      var tagFromServer = this._fromServer && this._fromServer[styleId];
+
+      if (tagFromServer) {
+        tagFromServer.parentNode.removeChild(tagFromServer);
+        delete this._fromServer[styleId];
+      } else {
+        this._indices[styleId].forEach(function (index) {
+          return _this2._sheet.deleteRule(index);
+        });
+
+        delete this._indices[styleId];
+      }
+
+      delete this._instancesCounts[styleId];
+    }
+  };
+
+  _proto.update = function update(props, nextProps) {
+    this.add(nextProps);
+    this.remove(props);
+  };
+
+  _proto.flush = function flush() {
+    this._sheet.flush();
+
+    this._sheet.inject();
+
+    this._fromServer = undefined;
+    this._indices = {};
+    this._instancesCounts = {};
+    this.computeId = this.createComputeId();
+    this.computeSelector = this.createComputeSelector();
+  };
+
+  _proto.cssRules = function cssRules() {
+    var _this3 = this;
+
+    var fromServer = this._fromServer ? Object.keys(this._fromServer).map(function (styleId) {
+      return [styleId, _this3._fromServer[styleId]];
+    }) : [];
+
+    var cssRules = this._sheet.cssRules();
+
+    return fromServer.concat(Object.keys(this._indices).map(function (styleId) {
+      return [styleId, _this3._indices[styleId].map(function (index) {
+        return cssRules[index].cssText;
+      }).join(_this3._optimizeForSpeed ? '' : '\n')];
+    }) // filter out empty rules
+    .filter(function (rule) {
+      return Boolean(rule[1]);
+    }));
+  }
+  /**
+   * createComputeId
+   *
+   * Creates a function to compute and memoize a jsx id from a basedId and optionally props.
+   */
+  ;
+
+  _proto.createComputeId = function createComputeId() {
+    var cache = {};
+    return function (baseId, props) {
+      if (!props) {
+        return "jsx-" + baseId;
+      }
+
+      var propsToString = String(props);
+      var key = baseId + propsToString; // return `jsx-${hashString(`${baseId}-${propsToString}`)}`
+
+      if (!cache[key]) {
+        cache[key] = "jsx-" + (0, _stringHash["default"])(baseId + "-" + propsToString);
+      }
+
+      return cache[key];
+    };
+  }
+  /**
+   * createComputeSelector
+   *
+   * Creates a function to compute and memoize dynamic selectors.
+   */
+  ;
+
+  _proto.createComputeSelector = function createComputeSelector(selectoPlaceholderRegexp) {
+    if (selectoPlaceholderRegexp === void 0) {
+      selectoPlaceholderRegexp = /__jsx-style-dynamic-selector/g;
+    }
+
+    var cache = {};
+    return function (id, css) {
+      // Sanitize SSR-ed CSS.
+      // Client side code doesn't need to be sanitized since we use
+      // document.createTextNode (dev) and the CSSOM api sheet.insertRule (prod).
+      if (!this._isBrowser) {
+        css = sanitize(css);
+      }
+
+      var idcss = id + css;
+
+      if (!cache[idcss]) {
+        cache[idcss] = css.replace(selectoPlaceholderRegexp, id);
+      }
+
+      return cache[idcss];
+    };
+  };
+
+  _proto.getIdAndRules = function getIdAndRules(props) {
+    var _this4 = this;
+
+    var css = props.children,
+        dynamic = props.dynamic,
+        id = props.id;
+
+    if (dynamic) {
+      var styleId = this.computeId(id, dynamic);
+      return {
+        styleId: styleId,
+        rules: Array.isArray(css) ? css.map(function (rule) {
+          return _this4.computeSelector(styleId, rule);
+        }) : [this.computeSelector(styleId, css)]
+      };
+    }
+
+    return {
+      styleId: this.computeId(id),
+      rules: Array.isArray(css) ? css : [css]
+    };
+  }
+  /**
+   * selectFromServer
+   *
+   * Collects style tags from the document with id __jsx-XXX
+   */
+  ;
+
+  _proto.selectFromServer = function selectFromServer() {
+    var elements = Array.prototype.slice.call(document.querySelectorAll('[id^="__jsx-"]'));
+    return elements.reduce(function (acc, element) {
+      var id = element.id.slice(2);
+      acc[id] = element;
+      return acc;
+    }, {});
+  };
+
+  return StyleSheetRegistry;
+}();
+
+exports["default"] = StyleSheetRegistry;
+
+function invariant(condition, message) {
+  if (!condition) {
+    throw new Error("StyleSheetRegistry: " + message + ".");
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/style.js":
+/*!******************************************!*\
+  !*** ./node_modules/styled-jsx/style.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-jsx/dist/style.js")
+
+
+/***/ }),
+
 /***/ "./node_modules/uncontrollable/esm/hook.js":
 /*!*************************************************!*\
   !*** ./node_modules/uncontrollable/esm/hook.js ***!
@@ -29070,23 +29993,28 @@ module.exports = g;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var _components_Table__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Table */ "./components/Table.js");
-/* harmony import */ var _components_TableStyle__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/TableStyle */ "./components/TableStyle.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-bootstrap/Dropdown */ "./node_modules/react-bootstrap/esm/Dropdown.js");
-/* harmony import */ var react_bootstrap_table__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-bootstrap-table */ "./node_modules/react-bootstrap-table/lib/index.js");
-/* harmony import */ var react_bootstrap_table__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var _components_Table__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Table */ "./components/Table.js");
+/* harmony import */ var _components_TableStyle__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/TableStyle */ "./components/TableStyle.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-bootstrap/Dropdown */ "./node_modules/react-bootstrap/esm/Dropdown.js");
+/* harmony import */ var react_bootstrap_table__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-bootstrap-table */ "./node_modules/react-bootstrap-table/lib/index.js");
+/* harmony import */ var react_bootstrap_table__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_15__);
+
 
 
 
@@ -29094,7 +30022,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "C:\\Users\\josep\\dev\\wedding-ui\\pages\\invitation.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 
 
@@ -29107,15 +30036,15 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 var Invitation =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Invitation, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Invitation, _React$Component);
 
   function Invitation(props) {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Invitation);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Invitation);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Invitation).call(this, props));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Invitation).call(this, props));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Invitation, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Invitation, [{
     key: "render",
     value: function render() {
       var invitation = this.props.invitation;
@@ -29125,6 +30054,8 @@ function (_React$Component) {
         for (var i = 0; i < invitation.guests.length; i++) {
           var guestElem = invitation.guests[i];
           guests.push({
+            invitationId: invitation.invitation_id,
+            guestId: guestElem.guest_id,
             guest: guestElem.guest_name,
             attending: guestElem.attending,
             meal: guestElem.meal
@@ -29136,48 +30067,206 @@ function (_React$Component) {
         return __jsx("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 44
+            lineNumber: 46
           },
           __self: this
         }, "'loading...'");
       } else {
         console.log("got invitation: ".concat(invitation.guests[0].attending));
-      } // https://github.com/AllenFang/react-bootstrap-table/blob/master/examples/js/cell-edit/custom-cell-edit-table.js
+      }
+
+      function updateInvitation(invitationUpdate) {
+        console.log("received invitation update: ".concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(invitationUpdate)));
+        var invitationUpdateResponse = isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_13___default()('http://localhost:8080/invitations', {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(invitationUpdate)
+        }).then(function (response) {
+          if (!response.ok) {
+            throw Error(response.statusText);
+          } else {
+            console.log("success updating invitation");
+          }
+
+          return response;
+        })["catch"](function (error) {
+          console.error('Error:', error);
+        });
+      } // is called even when there's no change to the cell. i don't know if there's a way to get hooks into the previous state of the row from here (to tell if there's a difference)
 
 
-      return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      function onAfterSaveCell(row, cellName, cellValue) {
+        var meal = row['meal'];
+        var attending = row['attending'];
+        var invitationId = row['invitationId'];
+        var guestId = row['guestId']; // update will be on each cell, so we only need to worry about one guest being updated at a time (since each guest is a row in the table)
+
+        var invitationUpdate = {
+          invitation_id: invitationId,
+          rsvped: true,
+          guests: [{
+            guest_id: guestId,
+            attending: attending,
+            meal: meal
+          }]
+        };
+        console.log("invitation update: ".concat(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(invitationUpdate)));
+        updateInvitation(invitationUpdate);
+      }
+
+      function onBeforeSaveCell(row, cellName, cellValue) {
+        // You can do any validation on here for editing value,
+        // return false for reject the editing
+        if (cellName == 'meal') {
+          if (cellValue != 'BURGER' && cellValue != 'CHICKEN') {
+            console.log("trying to change to invalid meal: ".concat(cellValue));
+            return false;
+          }
+        } else if (cellName == 'attending') {
+          if (cellValue != 'true' && cellValue != 'false') {
+            console.log("trying to change to invalid attending: ".concat(cellValue));
+            return false;
+          }
+        }
+
+        return true;
+      }
+
+      var cellEditProp = {
+        mode: 'click',
+        blurToSave: true,
+        beforeSaveCell: onBeforeSaveCell,
+        // a hook for before saving cell
+        afterSaveCell: onAfterSaveCell // a hook for after saving cell
+
+      };
+
+      var trStyle = function trStyle(row, rowIndex) {
+        return {
+          backgroundColor: '#e6d5d5'
+        };
+      };
+
+      function myCellFormatter(cell, row) {
+        return __jsx("div", {
+          className: "jsx-778162326",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 129
+          },
+          __self: this
+        }, __jsx("p", {
+          className: "jsx-778162326",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 130
+          },
+          __self: this
+        }, cell), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
+          id: "778162326",
+          __self: this
+        }, "p.jsx-778162326{font-family:'Arial';}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcam9zZXBcXGRldlxcd2VkZGluZy11aVxccGFnZXNcXGludml0YXRpb24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBb0lzQixBQUlZLG9CQUFDIiwiZmlsZSI6IkM6XFxVc2Vyc1xcam9zZXBcXGRldlxcd2VkZGluZy11aVxccGFnZXNcXGludml0YXRpb24uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dCc7XHJcbmltcG9ydCBUYWJsZSBmcm9tICcuLi9jb21wb25lbnRzL1RhYmxlJztcclxuaW1wb3J0IFRhYmxlU3R5bGUgZnJvbSAnLi4vY29tcG9uZW50cy9UYWJsZVN0eWxlJztcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuaW1wb3J0IGZldGNoIGZyb20gJ2lzb21vcnBoaWMtdW5mZXRjaCc7XHJcbmltcG9ydCBEcm9wZG93biBmcm9tICdyZWFjdC1ib290c3RyYXAvRHJvcGRvd24nO1xyXG5pbXBvcnQge0Jvb3RzdHJhcFRhYmxlLCBUYWJsZUhlYWRlckNvbHVtbn0gZnJvbSAncmVhY3QtYm9vdHN0cmFwLXRhYmxlJztcclxuXHJcbmNsYXNzIEludml0YXRpb24gZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xyXG5cclxuICBjb25zdHJ1Y3Rvcihwcm9wcykge1xyXG4gICAgc3VwZXIocHJvcHMpXHJcbiAgfVxyXG5cclxuICBzdGF0aWMgYXN5bmMgZ2V0SW5pdGlhbFByb3BzKGN0eCkge1xyXG4gICAgY29uc3QgaW52aXRhdGlvbklkID0gY3R4LnF1ZXJ5Lmludml0YXRpb25JZFxyXG4gICAgY29uc29sZS5sb2coYGludml0YXRpb24gaWQ6ICR7aW52aXRhdGlvbklkfWApXHJcbiAgICBjb25zdCBteVVybCA9ICdodHRwOi8vbG9jYWxob3N0OjgwODAvaW52aXRhdGlvbnMvJyArIGludml0YXRpb25JZFxyXG4gICAgY29uc29sZS5sb2coYHVybDogJHtteVVybH1gKVxyXG4gICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChteVVybClcclxuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7XHJcblxyXG4gICAgcmV0dXJuIHtcclxuICAgICAgaW52aXRhdGlvbjogZGF0YVxyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgcmVuZGVyKCkge1xyXG4gICAgY29uc3QgaW52aXRhdGlvbiA9IHRoaXMucHJvcHMuaW52aXRhdGlvblxyXG4gICAgY29uc3QgZ3Vlc3RzID0gW11cclxuICAgIGlmIChpbnZpdGF0aW9uKSB7XHJcbiAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgaW52aXRhdGlvbi5ndWVzdHMubGVuZ3RoOyBpKyspIHtcclxuICAgICAgICBsZXQgZ3Vlc3RFbGVtID0gaW52aXRhdGlvbi5ndWVzdHNbaV1cclxuICAgICAgICBndWVzdHMucHVzaCh7XHJcbiAgICAgICAgICBpbnZpdGF0aW9uSWQ6IGludml0YXRpb24uaW52aXRhdGlvbl9pZCxcclxuICAgICAgICAgIGd1ZXN0SWQ6IGd1ZXN0RWxlbS5ndWVzdF9pZCxcclxuICAgICAgICAgIGd1ZXN0OiBndWVzdEVsZW0uZ3Vlc3RfbmFtZSxcclxuICAgICAgICAgIGF0dGVuZGluZzogZ3Vlc3RFbGVtLmF0dGVuZGluZyxcclxuICAgICAgICAgIG1lYWw6IGd1ZXN0RWxlbS5tZWFsXHJcbiAgICAgICAgfSlcclxuICAgICAgfVxyXG4gICAgfVxyXG4gICAgaWYgKCFpbnZpdGF0aW9uKSB7XHJcbiAgICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdj4nbG9hZGluZy4uLic8L2Rpdj5cclxuICAgICAgKTtcclxuICAgIH0gZWxzZSB7XHJcbiAgICAgIGNvbnNvbGUubG9nKGBnb3QgaW52aXRhdGlvbjogJHtpbnZpdGF0aW9uLmd1ZXN0c1swXS5hdHRlbmRpbmd9YClcclxuICAgIH1cclxuXHJcbiAgICBmdW5jdGlvbiB1cGRhdGVJbnZpdGF0aW9uKGludml0YXRpb25VcGRhdGUpIHtcclxuICAgICAgY29uc29sZS5sb2coYHJlY2VpdmVkIGludml0YXRpb24gdXBkYXRlOiAke0pTT04uc3RyaW5naWZ5KGludml0YXRpb25VcGRhdGUpfWApXHJcbiAgICAgIGNvbnN0IGludml0YXRpb25VcGRhdGVSZXNwb25zZSA9IGZldGNoKCdodHRwOi8vbG9jYWxob3N0OjgwODAvaW52aXRhdGlvbnMnLCB7XHJcbiAgICAgICAgbWV0aG9kOiAnUFVUJyxcclxuICAgICAgICBoZWFkZXJzOiB7XHJcbiAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nXHJcbiAgICAgICAgfSxcclxuICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeShpbnZpdGF0aW9uVXBkYXRlKVxyXG4gICAgICB9KVxyXG4gICAgICAudGhlbihmdW5jdGlvbihyZXNwb25zZSkge1xyXG4gICAgICAgIGlmICghcmVzcG9uc2Uub2spIHtcclxuICAgICAgICAgIHRocm93IEVycm9yKHJlc3BvbnNlLnN0YXR1c1RleHQpO1xyXG4gICAgICAgIH0gZWxzZSB7XHJcbiAgICAgICAgICBjb25zb2xlLmxvZyhgc3VjY2VzcyB1cGRhdGluZyBpbnZpdGF0aW9uYClcclxuICAgICAgICB9XHJcbiAgICAgICAgcmV0dXJuIHJlc3BvbnNlO1xyXG4gICAgICB9KVxyXG4gICAgICAuY2F0Y2goKGVycm9yKSA9PiB7XHJcbiAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3I6JywgZXJyb3IpO1xyXG4gICAgICB9KTtcclxuICAgIH1cclxuXHJcbiAgICAvLyBpcyBjYWxsZWQgZXZlbiB3aGVuIHRoZXJlJ3Mgbm8gY2hhbmdlIHRvIHRoZSBjZWxsLiBpIGRvbid0IGtub3cgaWYgdGhlcmUncyBhIHdheSB0byBnZXQgaG9va3MgaW50byB0aGUgcHJldmlvdXMgc3RhdGUgb2YgdGhlIHJvdyBmcm9tIGhlcmUgKHRvIHRlbGwgaWYgdGhlcmUncyBhIGRpZmZlcmVuY2UpXHJcbiAgICBmdW5jdGlvbiBvbkFmdGVyU2F2ZUNlbGwocm93LCBjZWxsTmFtZSwgY2VsbFZhbHVlKSB7XHJcbiAgICAgIGNvbnN0IG1lYWwgPSByb3dbJ21lYWwnXVxyXG4gICAgICBjb25zdCBhdHRlbmRpbmcgPSByb3dbJ2F0dGVuZGluZyddXHJcbiAgICAgIGNvbnN0IGludml0YXRpb25JZCA9IHJvd1snaW52aXRhdGlvbklkJ11cclxuICAgICAgY29uc3QgZ3Vlc3RJZCA9IHJvd1snZ3Vlc3RJZCddXHJcblxyXG4gICAgICAvLyB1cGRhdGUgd2lsbCBiZSBvbiBlYWNoIGNlbGwsIHNvIHdlIG9ubHkgbmVlZCB0byB3b3JyeSBhYm91dCBvbmUgZ3Vlc3QgYmVpbmcgdXBkYXRlZCBhdCBhIHRpbWUgKHNpbmNlIGVhY2ggZ3Vlc3QgaXMgYSByb3cgaW4gdGhlIHRhYmxlKVxyXG4gICAgICBsZXQgaW52aXRhdGlvblVwZGF0ZSA9IHtcclxuICAgICAgICBpbnZpdGF0aW9uX2lkOiBpbnZpdGF0aW9uSWQsXHJcbiAgICAgICAgcnN2cGVkOiB0cnVlLFxyXG4gICAgICAgIGd1ZXN0czogW1xyXG4gICAgICAgICAge1xyXG4gICAgICAgICAgICBndWVzdF9pZDogZ3Vlc3RJZCxcclxuICAgICAgICAgICAgYXR0ZW5kaW5nOiBhdHRlbmRpbmcsXHJcbiAgICAgICAgICAgIG1lYWw6IG1lYWxcclxuICAgICAgICAgIH1cclxuICAgICAgICBdXHJcbiAgICAgIH1cclxuICAgICAgY29uc29sZS5sb2coYGludml0YXRpb24gdXBkYXRlOiAke0pTT04uc3RyaW5naWZ5KGludml0YXRpb25VcGRhdGUpfWApXHJcbiAgICAgIHVwZGF0ZUludml0YXRpb24oaW52aXRhdGlvblVwZGF0ZSlcclxuICAgIH1cclxuXHJcbiAgICBmdW5jdGlvbiBvbkJlZm9yZVNhdmVDZWxsKHJvdywgY2VsbE5hbWUsIGNlbGxWYWx1ZSkge1xyXG4gICAgICAvLyBZb3UgY2FuIGRvIGFueSB2YWxpZGF0aW9uIG9uIGhlcmUgZm9yIGVkaXRpbmcgdmFsdWUsXHJcbiAgICAgIC8vIHJldHVybiBmYWxzZSBmb3IgcmVqZWN0IHRoZSBlZGl0aW5nXHJcbiAgICAgIGlmIChjZWxsTmFtZSA9PSAnbWVhbCcpIHtcclxuICAgICAgICBpZiAoY2VsbFZhbHVlICE9ICdCVVJHRVInICYmIGNlbGxWYWx1ZSAhPSAnQ0hJQ0tFTicpIHtcclxuICAgICAgICAgIGNvbnNvbGUubG9nKGB0cnlpbmcgdG8gY2hhbmdlIHRvIGludmFsaWQgbWVhbDogJHtjZWxsVmFsdWV9YClcclxuICAgICAgICAgIHJldHVybiBmYWxzZVxyXG4gICAgICAgIH1cclxuICAgICAgfSBlbHNlIGlmIChjZWxsTmFtZSA9PSAnYXR0ZW5kaW5nJykge1xyXG4gICAgICAgIGlmIChjZWxsVmFsdWUgIT0gJ3RydWUnICYmIGNlbGxWYWx1ZSAhPSAnZmFsc2UnKSB7XHJcbiAgICAgICAgICBjb25zb2xlLmxvZyhgdHJ5aW5nIHRvIGNoYW5nZSB0byBpbnZhbGlkIGF0dGVuZGluZzogJHtjZWxsVmFsdWV9YClcclxuICAgICAgICAgIHJldHVybiBmYWxzZVxyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgICByZXR1cm4gdHJ1ZTtcclxuICAgIH1cclxuXHJcbiAgICBjb25zdCBjZWxsRWRpdFByb3AgPSB7XHJcbiAgICAgIG1vZGU6ICdjbGljaycsXHJcbiAgICAgIGJsdXJUb1NhdmU6IHRydWUsXHJcbiAgICAgIGJlZm9yZVNhdmVDZWxsOiBvbkJlZm9yZVNhdmVDZWxsLCAvLyBhIGhvb2sgZm9yIGJlZm9yZSBzYXZpbmcgY2VsbFxyXG4gICAgICBhZnRlclNhdmVDZWxsOiBvbkFmdGVyU2F2ZUNlbGwgIC8vIGEgaG9vayBmb3IgYWZ0ZXIgc2F2aW5nIGNlbGxcclxuICAgIH07XHJcblxyXG4gICAgY29uc3QgdHJTdHlsZSA9IChyb3csIHJvd0luZGV4KSA9PiB7XHJcbiAgICAgIHJldHVybiB7XHJcbiAgICAgICAgYmFja2dyb3VuZENvbG9yOiAnI2U2ZDVkNSdcclxuICAgICAgfTtcclxuICAgIH1cclxuXHJcbiAgICBmdW5jdGlvbiBteUNlbGxGb3JtYXR0ZXIoY2VsbCwgcm93KSB7XHJcbiAgICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdj5cclxuICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICB7Y2VsbH1cclxuICAgICAgICAgIDwvcD5cclxuICAgICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgcCB7XHJcbiAgICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdBcmlhbCdcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICApO1xyXG4gICAgfVxyXG5cclxuICAgIGZ1bmN0aW9uIG15QXR0ZW5kaW5nQ2VsbEZvcm1hdHRlcihjZWxsLCByb3cpIHtcclxuICAgICAgbGV0IHJlc3VsdCA9ICdubydcclxuICAgICAgaWYgKGNlbGwgPT0gdHJ1ZSkge1xyXG4gICAgICAgIHJlc3VsdCA9ICd5ZXMnXHJcbiAgICAgIH1cclxuICAgICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgIHtyZXN1bHR9XHJcbiAgICAgICAgICA8L3A+XHJcbiAgICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgIHAge1xyXG4gICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnQXJpYWwnXHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgKTtcclxuICAgIH1cclxuXHJcbiAgICByZXR1cm4gKFxyXG4gICAgICA8TGF5b3V0PlxyXG4gICAgICAgIDxoMz5cclxuICAgICAgICAgIENsaWNrIGEgZmllbGQgdG8gZWRpdC5cclxuICAgICAgICA8L2gzPlxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgIGgzIHtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdBcmlhbCc7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDxCb290c3RyYXBUYWJsZSBkYXRhPXsgZ3Vlc3RzIH0gIGNlbGxFZGl0PXsgY2VsbEVkaXRQcm9wIH1cclxuICAgICAgICAgIHRhYmxlU3R5bGU9eyB7IGJvcmRlcjogJ2JsYWNrIDFweCBzb2xpZCcgfSB9XHJcbiAgICAgICAgICBoZWFkZXJTdHlsZT17IHsgYm9yZGVyOiAnYmxhY2sgMXB4IHNvbGlkJyB9IH1cclxuICAgICAgICAgIGJvZHlTdHlsZT17IHsgYm9yZGVyOiAnYmxhY2sgMXB4IHNvbGlkJyB9IH1cclxuICAgICAgICAgIHN0cmlwZWQ9eyB0cnVlIH1cclxuICAgICAgICAgIGhvdmVyPXsgdHJ1ZSB9PlxyXG4gICAgICAgICAgICA8VGFibGVIZWFkZXJDb2x1bW5cclxuICAgICAgICAgICAgICBkYXRhRmllbGQ9J2d1ZXN0J1xyXG4gICAgICAgICAgICAgIGlzS2V5PXsgdHJ1ZSB9XHJcbiAgICAgICAgICAgICAgd2lkdGg9JzEwJSdcclxuICAgICAgICAgICAgICBkYXRhQWxpZ249J2NlbnRlcidcclxuICAgICAgICAgICAgICBkYXRhRm9ybWF0PXtteUNlbGxGb3JtYXR0ZXJ9PlxyXG4gICAgICAgICAgICAgIEd1ZXN0XHJcbiAgICAgICAgICAgIDwvVGFibGVIZWFkZXJDb2x1bW4+XHJcbiAgICAgICAgICAgIDxUYWJsZUhlYWRlckNvbHVtblxyXG4gICAgICAgICAgICAgIGRhdGFGaWVsZD0nYXR0ZW5kaW5nJ1xyXG4gICAgICAgICAgICAgIGRhdGFBbGlnbj0nY2VudGVyJ1xyXG4gICAgICAgICAgICAgIHdpZHRoPScxMCUnXHJcbiAgICAgICAgICAgICAgdGhTdHlsZT17IHsgJ2ZvbnRXZWlnaHQnOiAnbGlnaHRlcicgfSB9XHJcbiAgICAgICAgICAgICAgZGF0YUZvcm1hdD17bXlBdHRlbmRpbmdDZWxsRm9ybWF0dGVyfT5cclxuICAgICAgICAgICAgICBBdHRlbmRpbmdcclxuICAgICAgICAgICAgPC9UYWJsZUhlYWRlckNvbHVtbj5cclxuICAgICAgICAgICAgPFRhYmxlSGVhZGVyQ29sdW1uXHJcbiAgICAgICAgICAgICAgZGF0YUZpZWxkPSdtZWFsJ1xyXG4gICAgICAgICAgICAgIGRhdGFBbGlnbj0nY2VudGVyJ1xyXG4gICAgICAgICAgICAgIHdpZHRoPScxMCUnXHJcbiAgICAgICAgICAgICAgdGRTdHlsZT17IHsgJ2ZvbnRGYWNlJzogJ0FyaWFsJyB9IH1cclxuICAgICAgICAgICAgICBkYXRhRm9ybWF0PXtteUNlbGxGb3JtYXR0ZXJ9PlxyXG4gICAgICAgICAgICAgIE1lYWxcclxuICAgICAgICAgICAgPC9UYWJsZUhlYWRlckNvbHVtbj5cclxuICAgICAgICA8L0Jvb3RzdHJhcFRhYmxlPlxyXG4gICAgICA8L0xheW91dD5cclxuICAgICk7XHJcbiAgfVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBJbnZpdGF0aW9uO1xyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\josep\\\\dev\\\\wedding-ui\\\\pages\\\\invitation.js */"));
+      }
+
+      function myAttendingCellFormatter(cell, row) {
+        var result = 'no';
+
+        if (cell == true) {
+          result = 'yes';
+        }
+
+        return __jsx("div", {
+          className: "jsx-778162326",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 148
+          },
+          __self: this
+        }, __jsx("p", {
+          className: "jsx-778162326",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 149
+          },
+          __self: this
+        }, result), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
+          id: "778162326",
+          __self: this
+        }, "p.jsx-778162326{font-family:'Arial';}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcam9zZXBcXGRldlxcd2VkZGluZy11aVxccGFnZXNcXGludml0YXRpb24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBdUpzQixBQUlZLG9CQUFDIiwiZmlsZSI6IkM6XFxVc2Vyc1xcam9zZXBcXGRldlxcd2VkZGluZy11aVxccGFnZXNcXGludml0YXRpb24uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dCc7XHJcbmltcG9ydCBUYWJsZSBmcm9tICcuLi9jb21wb25lbnRzL1RhYmxlJztcclxuaW1wb3J0IFRhYmxlU3R5bGUgZnJvbSAnLi4vY29tcG9uZW50cy9UYWJsZVN0eWxlJztcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuaW1wb3J0IGZldGNoIGZyb20gJ2lzb21vcnBoaWMtdW5mZXRjaCc7XHJcbmltcG9ydCBEcm9wZG93biBmcm9tICdyZWFjdC1ib290c3RyYXAvRHJvcGRvd24nO1xyXG5pbXBvcnQge0Jvb3RzdHJhcFRhYmxlLCBUYWJsZUhlYWRlckNvbHVtbn0gZnJvbSAncmVhY3QtYm9vdHN0cmFwLXRhYmxlJztcclxuXHJcbmNsYXNzIEludml0YXRpb24gZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xyXG5cclxuICBjb25zdHJ1Y3Rvcihwcm9wcykge1xyXG4gICAgc3VwZXIocHJvcHMpXHJcbiAgfVxyXG5cclxuICBzdGF0aWMgYXN5bmMgZ2V0SW5pdGlhbFByb3BzKGN0eCkge1xyXG4gICAgY29uc3QgaW52aXRhdGlvbklkID0gY3R4LnF1ZXJ5Lmludml0YXRpb25JZFxyXG4gICAgY29uc29sZS5sb2coYGludml0YXRpb24gaWQ6ICR7aW52aXRhdGlvbklkfWApXHJcbiAgICBjb25zdCBteVVybCA9ICdodHRwOi8vbG9jYWxob3N0OjgwODAvaW52aXRhdGlvbnMvJyArIGludml0YXRpb25JZFxyXG4gICAgY29uc29sZS5sb2coYHVybDogJHtteVVybH1gKVxyXG4gICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChteVVybClcclxuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7XHJcblxyXG4gICAgcmV0dXJuIHtcclxuICAgICAgaW52aXRhdGlvbjogZGF0YVxyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgcmVuZGVyKCkge1xyXG4gICAgY29uc3QgaW52aXRhdGlvbiA9IHRoaXMucHJvcHMuaW52aXRhdGlvblxyXG4gICAgY29uc3QgZ3Vlc3RzID0gW11cclxuICAgIGlmIChpbnZpdGF0aW9uKSB7XHJcbiAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgaW52aXRhdGlvbi5ndWVzdHMubGVuZ3RoOyBpKyspIHtcclxuICAgICAgICBsZXQgZ3Vlc3RFbGVtID0gaW52aXRhdGlvbi5ndWVzdHNbaV1cclxuICAgICAgICBndWVzdHMucHVzaCh7XHJcbiAgICAgICAgICBpbnZpdGF0aW9uSWQ6IGludml0YXRpb24uaW52aXRhdGlvbl9pZCxcclxuICAgICAgICAgIGd1ZXN0SWQ6IGd1ZXN0RWxlbS5ndWVzdF9pZCxcclxuICAgICAgICAgIGd1ZXN0OiBndWVzdEVsZW0uZ3Vlc3RfbmFtZSxcclxuICAgICAgICAgIGF0dGVuZGluZzogZ3Vlc3RFbGVtLmF0dGVuZGluZyxcclxuICAgICAgICAgIG1lYWw6IGd1ZXN0RWxlbS5tZWFsXHJcbiAgICAgICAgfSlcclxuICAgICAgfVxyXG4gICAgfVxyXG4gICAgaWYgKCFpbnZpdGF0aW9uKSB7XHJcbiAgICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdj4nbG9hZGluZy4uLic8L2Rpdj5cclxuICAgICAgKTtcclxuICAgIH0gZWxzZSB7XHJcbiAgICAgIGNvbnNvbGUubG9nKGBnb3QgaW52aXRhdGlvbjogJHtpbnZpdGF0aW9uLmd1ZXN0c1swXS5hdHRlbmRpbmd9YClcclxuICAgIH1cclxuXHJcbiAgICBmdW5jdGlvbiB1cGRhdGVJbnZpdGF0aW9uKGludml0YXRpb25VcGRhdGUpIHtcclxuICAgICAgY29uc29sZS5sb2coYHJlY2VpdmVkIGludml0YXRpb24gdXBkYXRlOiAke0pTT04uc3RyaW5naWZ5KGludml0YXRpb25VcGRhdGUpfWApXHJcbiAgICAgIGNvbnN0IGludml0YXRpb25VcGRhdGVSZXNwb25zZSA9IGZldGNoKCdodHRwOi8vbG9jYWxob3N0OjgwODAvaW52aXRhdGlvbnMnLCB7XHJcbiAgICAgICAgbWV0aG9kOiAnUFVUJyxcclxuICAgICAgICBoZWFkZXJzOiB7XHJcbiAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nXHJcbiAgICAgICAgfSxcclxuICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeShpbnZpdGF0aW9uVXBkYXRlKVxyXG4gICAgICB9KVxyXG4gICAgICAudGhlbihmdW5jdGlvbihyZXNwb25zZSkge1xyXG4gICAgICAgIGlmICghcmVzcG9uc2Uub2spIHtcclxuICAgICAgICAgIHRocm93IEVycm9yKHJlc3BvbnNlLnN0YXR1c1RleHQpO1xyXG4gICAgICAgIH0gZWxzZSB7XHJcbiAgICAgICAgICBjb25zb2xlLmxvZyhgc3VjY2VzcyB1cGRhdGluZyBpbnZpdGF0aW9uYClcclxuICAgICAgICB9XHJcbiAgICAgICAgcmV0dXJuIHJlc3BvbnNlO1xyXG4gICAgICB9KVxyXG4gICAgICAuY2F0Y2goKGVycm9yKSA9PiB7XHJcbiAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3I6JywgZXJyb3IpO1xyXG4gICAgICB9KTtcclxuICAgIH1cclxuXHJcbiAgICAvLyBpcyBjYWxsZWQgZXZlbiB3aGVuIHRoZXJlJ3Mgbm8gY2hhbmdlIHRvIHRoZSBjZWxsLiBpIGRvbid0IGtub3cgaWYgdGhlcmUncyBhIHdheSB0byBnZXQgaG9va3MgaW50byB0aGUgcHJldmlvdXMgc3RhdGUgb2YgdGhlIHJvdyBmcm9tIGhlcmUgKHRvIHRlbGwgaWYgdGhlcmUncyBhIGRpZmZlcmVuY2UpXHJcbiAgICBmdW5jdGlvbiBvbkFmdGVyU2F2ZUNlbGwocm93LCBjZWxsTmFtZSwgY2VsbFZhbHVlKSB7XHJcbiAgICAgIGNvbnN0IG1lYWwgPSByb3dbJ21lYWwnXVxyXG4gICAgICBjb25zdCBhdHRlbmRpbmcgPSByb3dbJ2F0dGVuZGluZyddXHJcbiAgICAgIGNvbnN0IGludml0YXRpb25JZCA9IHJvd1snaW52aXRhdGlvbklkJ11cclxuICAgICAgY29uc3QgZ3Vlc3RJZCA9IHJvd1snZ3Vlc3RJZCddXHJcblxyXG4gICAgICAvLyB1cGRhdGUgd2lsbCBiZSBvbiBlYWNoIGNlbGwsIHNvIHdlIG9ubHkgbmVlZCB0byB3b3JyeSBhYm91dCBvbmUgZ3Vlc3QgYmVpbmcgdXBkYXRlZCBhdCBhIHRpbWUgKHNpbmNlIGVhY2ggZ3Vlc3QgaXMgYSByb3cgaW4gdGhlIHRhYmxlKVxyXG4gICAgICBsZXQgaW52aXRhdGlvblVwZGF0ZSA9IHtcclxuICAgICAgICBpbnZpdGF0aW9uX2lkOiBpbnZpdGF0aW9uSWQsXHJcbiAgICAgICAgcnN2cGVkOiB0cnVlLFxyXG4gICAgICAgIGd1ZXN0czogW1xyXG4gICAgICAgICAge1xyXG4gICAgICAgICAgICBndWVzdF9pZDogZ3Vlc3RJZCxcclxuICAgICAgICAgICAgYXR0ZW5kaW5nOiBhdHRlbmRpbmcsXHJcbiAgICAgICAgICAgIG1lYWw6IG1lYWxcclxuICAgICAgICAgIH1cclxuICAgICAgICBdXHJcbiAgICAgIH1cclxuICAgICAgY29uc29sZS5sb2coYGludml0YXRpb24gdXBkYXRlOiAke0pTT04uc3RyaW5naWZ5KGludml0YXRpb25VcGRhdGUpfWApXHJcbiAgICAgIHVwZGF0ZUludml0YXRpb24oaW52aXRhdGlvblVwZGF0ZSlcclxuICAgIH1cclxuXHJcbiAgICBmdW5jdGlvbiBvbkJlZm9yZVNhdmVDZWxsKHJvdywgY2VsbE5hbWUsIGNlbGxWYWx1ZSkge1xyXG4gICAgICAvLyBZb3UgY2FuIGRvIGFueSB2YWxpZGF0aW9uIG9uIGhlcmUgZm9yIGVkaXRpbmcgdmFsdWUsXHJcbiAgICAgIC8vIHJldHVybiBmYWxzZSBmb3IgcmVqZWN0IHRoZSBlZGl0aW5nXHJcbiAgICAgIGlmIChjZWxsTmFtZSA9PSAnbWVhbCcpIHtcclxuICAgICAgICBpZiAoY2VsbFZhbHVlICE9ICdCVVJHRVInICYmIGNlbGxWYWx1ZSAhPSAnQ0hJQ0tFTicpIHtcclxuICAgICAgICAgIGNvbnNvbGUubG9nKGB0cnlpbmcgdG8gY2hhbmdlIHRvIGludmFsaWQgbWVhbDogJHtjZWxsVmFsdWV9YClcclxuICAgICAgICAgIHJldHVybiBmYWxzZVxyXG4gICAgICAgIH1cclxuICAgICAgfSBlbHNlIGlmIChjZWxsTmFtZSA9PSAnYXR0ZW5kaW5nJykge1xyXG4gICAgICAgIGlmIChjZWxsVmFsdWUgIT0gJ3RydWUnICYmIGNlbGxWYWx1ZSAhPSAnZmFsc2UnKSB7XHJcbiAgICAgICAgICBjb25zb2xlLmxvZyhgdHJ5aW5nIHRvIGNoYW5nZSB0byBpbnZhbGlkIGF0dGVuZGluZzogJHtjZWxsVmFsdWV9YClcclxuICAgICAgICAgIHJldHVybiBmYWxzZVxyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgICByZXR1cm4gdHJ1ZTtcclxuICAgIH1cclxuXHJcbiAgICBjb25zdCBjZWxsRWRpdFByb3AgPSB7XHJcbiAgICAgIG1vZGU6ICdjbGljaycsXHJcbiAgICAgIGJsdXJUb1NhdmU6IHRydWUsXHJcbiAgICAgIGJlZm9yZVNhdmVDZWxsOiBvbkJlZm9yZVNhdmVDZWxsLCAvLyBhIGhvb2sgZm9yIGJlZm9yZSBzYXZpbmcgY2VsbFxyXG4gICAgICBhZnRlclNhdmVDZWxsOiBvbkFmdGVyU2F2ZUNlbGwgIC8vIGEgaG9vayBmb3IgYWZ0ZXIgc2F2aW5nIGNlbGxcclxuICAgIH07XHJcblxyXG4gICAgY29uc3QgdHJTdHlsZSA9IChyb3csIHJvd0luZGV4KSA9PiB7XHJcbiAgICAgIHJldHVybiB7XHJcbiAgICAgICAgYmFja2dyb3VuZENvbG9yOiAnI2U2ZDVkNSdcclxuICAgICAgfTtcclxuICAgIH1cclxuXHJcbiAgICBmdW5jdGlvbiBteUNlbGxGb3JtYXR0ZXIoY2VsbCwgcm93KSB7XHJcbiAgICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdj5cclxuICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICB7Y2VsbH1cclxuICAgICAgICAgIDwvcD5cclxuICAgICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgcCB7XHJcbiAgICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdBcmlhbCdcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICApO1xyXG4gICAgfVxyXG5cclxuICAgIGZ1bmN0aW9uIG15QXR0ZW5kaW5nQ2VsbEZvcm1hdHRlcihjZWxsLCByb3cpIHtcclxuICAgICAgbGV0IHJlc3VsdCA9ICdubydcclxuICAgICAgaWYgKGNlbGwgPT0gdHJ1ZSkge1xyXG4gICAgICAgIHJlc3VsdCA9ICd5ZXMnXHJcbiAgICAgIH1cclxuICAgICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgIHtyZXN1bHR9XHJcbiAgICAgICAgICA8L3A+XHJcbiAgICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgIHAge1xyXG4gICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnQXJpYWwnXHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgKTtcclxuICAgIH1cclxuXHJcbiAgICByZXR1cm4gKFxyXG4gICAgICA8TGF5b3V0PlxyXG4gICAgICAgIDxoMz5cclxuICAgICAgICAgIENsaWNrIGEgZmllbGQgdG8gZWRpdC5cclxuICAgICAgICA8L2gzPlxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgIGgzIHtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdBcmlhbCc7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDxCb290c3RyYXBUYWJsZSBkYXRhPXsgZ3Vlc3RzIH0gIGNlbGxFZGl0PXsgY2VsbEVkaXRQcm9wIH1cclxuICAgICAgICAgIHRhYmxlU3R5bGU9eyB7IGJvcmRlcjogJ2JsYWNrIDFweCBzb2xpZCcgfSB9XHJcbiAgICAgICAgICBoZWFkZXJTdHlsZT17IHsgYm9yZGVyOiAnYmxhY2sgMXB4IHNvbGlkJyB9IH1cclxuICAgICAgICAgIGJvZHlTdHlsZT17IHsgYm9yZGVyOiAnYmxhY2sgMXB4IHNvbGlkJyB9IH1cclxuICAgICAgICAgIHN0cmlwZWQ9eyB0cnVlIH1cclxuICAgICAgICAgIGhvdmVyPXsgdHJ1ZSB9PlxyXG4gICAgICAgICAgICA8VGFibGVIZWFkZXJDb2x1bW5cclxuICAgICAgICAgICAgICBkYXRhRmllbGQ9J2d1ZXN0J1xyXG4gICAgICAgICAgICAgIGlzS2V5PXsgdHJ1ZSB9XHJcbiAgICAgICAgICAgICAgd2lkdGg9JzEwJSdcclxuICAgICAgICAgICAgICBkYXRhQWxpZ249J2NlbnRlcidcclxuICAgICAgICAgICAgICBkYXRhRm9ybWF0PXtteUNlbGxGb3JtYXR0ZXJ9PlxyXG4gICAgICAgICAgICAgIEd1ZXN0XHJcbiAgICAgICAgICAgIDwvVGFibGVIZWFkZXJDb2x1bW4+XHJcbiAgICAgICAgICAgIDxUYWJsZUhlYWRlckNvbHVtblxyXG4gICAgICAgICAgICAgIGRhdGFGaWVsZD0nYXR0ZW5kaW5nJ1xyXG4gICAgICAgICAgICAgIGRhdGFBbGlnbj0nY2VudGVyJ1xyXG4gICAgICAgICAgICAgIHdpZHRoPScxMCUnXHJcbiAgICAgICAgICAgICAgdGhTdHlsZT17IHsgJ2ZvbnRXZWlnaHQnOiAnbGlnaHRlcicgfSB9XHJcbiAgICAgICAgICAgICAgZGF0YUZvcm1hdD17bXlBdHRlbmRpbmdDZWxsRm9ybWF0dGVyfT5cclxuICAgICAgICAgICAgICBBdHRlbmRpbmdcclxuICAgICAgICAgICAgPC9UYWJsZUhlYWRlckNvbHVtbj5cclxuICAgICAgICAgICAgPFRhYmxlSGVhZGVyQ29sdW1uXHJcbiAgICAgICAgICAgICAgZGF0YUZpZWxkPSdtZWFsJ1xyXG4gICAgICAgICAgICAgIGRhdGFBbGlnbj0nY2VudGVyJ1xyXG4gICAgICAgICAgICAgIHdpZHRoPScxMCUnXHJcbiAgICAgICAgICAgICAgdGRTdHlsZT17IHsgJ2ZvbnRGYWNlJzogJ0FyaWFsJyB9IH1cclxuICAgICAgICAgICAgICBkYXRhRm9ybWF0PXtteUNlbGxGb3JtYXR0ZXJ9PlxyXG4gICAgICAgICAgICAgIE1lYWxcclxuICAgICAgICAgICAgPC9UYWJsZUhlYWRlckNvbHVtbj5cclxuICAgICAgICA8L0Jvb3RzdHJhcFRhYmxlPlxyXG4gICAgICA8L0xheW91dD5cclxuICAgICk7XHJcbiAgfVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBJbnZpdGF0aW9uO1xyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\josep\\\\dev\\\\wedding-ui\\\\pages\\\\invitation.js */"));
+      }
+
+      return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 162
         },
         __self: this
-      }, __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_13__["BootstrapTable"], {
+      }, __jsx("h3", {
+        className: "jsx-3309349814",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 163
+        },
+        __self: this
+      }, "Click a field to edit."), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        id: "3309349814",
+        __self: this
+      }, "h3.jsx-3309349814{font-family:'Arial';}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcam9zZXBcXGRldlxcd2VkZGluZy11aVxccGFnZXNcXGludml0YXRpb24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBcUtvQixBQUdpQyxvQkFDdEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxqb3NlcFxcZGV2XFx3ZWRkaW5nLXVpXFxwYWdlc1xcaW52aXRhdGlvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL015TGF5b3V0JztcclxuaW1wb3J0IFRhYmxlIGZyb20gJy4uL2NvbXBvbmVudHMvVGFibGUnO1xyXG5pbXBvcnQgVGFibGVTdHlsZSBmcm9tICcuLi9jb21wb25lbnRzL1RhYmxlU3R5bGUnO1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJztcclxuaW1wb3J0IERyb3Bkb3duIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Ecm9wZG93bic7XHJcbmltcG9ydCB7Qm9vdHN0cmFwVGFibGUsIFRhYmxlSGVhZGVyQ29sdW1ufSBmcm9tICdyZWFjdC1ib290c3RyYXAtdGFibGUnO1xyXG5cclxuY2xhc3MgSW52aXRhdGlvbiBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XHJcblxyXG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XHJcbiAgICBzdXBlcihwcm9wcylcclxuICB9XHJcblxyXG4gIHN0YXRpYyBhc3luYyBnZXRJbml0aWFsUHJvcHMoY3R4KSB7XHJcbiAgICBjb25zdCBpbnZpdGF0aW9uSWQgPSBjdHgucXVlcnkuaW52aXRhdGlvbklkXHJcbiAgICBjb25zb2xlLmxvZyhgaW52aXRhdGlvbiBpZDogJHtpbnZpdGF0aW9uSWR9YClcclxuICAgIGNvbnN0IG15VXJsID0gJ2h0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9pbnZpdGF0aW9ucy8nICsgaW52aXRhdGlvbklkXHJcbiAgICBjb25zb2xlLmxvZyhgdXJsOiAke215VXJsfWApXHJcbiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKG15VXJsKVxyXG4gICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTtcclxuXHJcbiAgICByZXR1cm4ge1xyXG4gICAgICBpbnZpdGF0aW9uOiBkYXRhXHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICByZW5kZXIoKSB7XHJcbiAgICBjb25zdCBpbnZpdGF0aW9uID0gdGhpcy5wcm9wcy5pbnZpdGF0aW9uXHJcbiAgICBjb25zdCBndWVzdHMgPSBbXVxyXG4gICAgaWYgKGludml0YXRpb24pIHtcclxuICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBpbnZpdGF0aW9uLmd1ZXN0cy5sZW5ndGg7IGkrKykge1xyXG4gICAgICAgIGxldCBndWVzdEVsZW0gPSBpbnZpdGF0aW9uLmd1ZXN0c1tpXVxyXG4gICAgICAgIGd1ZXN0cy5wdXNoKHtcclxuICAgICAgICAgIGludml0YXRpb25JZDogaW52aXRhdGlvbi5pbnZpdGF0aW9uX2lkLFxyXG4gICAgICAgICAgZ3Vlc3RJZDogZ3Vlc3RFbGVtLmd1ZXN0X2lkLFxyXG4gICAgICAgICAgZ3Vlc3Q6IGd1ZXN0RWxlbS5ndWVzdF9uYW1lLFxyXG4gICAgICAgICAgYXR0ZW5kaW5nOiBndWVzdEVsZW0uYXR0ZW5kaW5nLFxyXG4gICAgICAgICAgbWVhbDogZ3Vlc3RFbGVtLm1lYWxcclxuICAgICAgICB9KVxyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgICBpZiAoIWludml0YXRpb24pIHtcclxuICAgICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2Pidsb2FkaW5nLi4uJzwvZGl2PlxyXG4gICAgICApO1xyXG4gICAgfSBlbHNlIHtcclxuICAgICAgY29uc29sZS5sb2coYGdvdCBpbnZpdGF0aW9uOiAke2ludml0YXRpb24uZ3Vlc3RzWzBdLmF0dGVuZGluZ31gKVxyXG4gICAgfVxyXG5cclxuICAgIGZ1bmN0aW9uIHVwZGF0ZUludml0YXRpb24oaW52aXRhdGlvblVwZGF0ZSkge1xyXG4gICAgICBjb25zb2xlLmxvZyhgcmVjZWl2ZWQgaW52aXRhdGlvbiB1cGRhdGU6ICR7SlNPTi5zdHJpbmdpZnkoaW52aXRhdGlvblVwZGF0ZSl9YClcclxuICAgICAgY29uc3QgaW52aXRhdGlvblVwZGF0ZVJlc3BvbnNlID0gZmV0Y2goJ2h0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9pbnZpdGF0aW9ucycsIHtcclxuICAgICAgICBtZXRob2Q6ICdQVVQnLFxyXG4gICAgICAgIGhlYWRlcnM6IHtcclxuICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbidcclxuICAgICAgICB9LFxyXG4gICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KGludml0YXRpb25VcGRhdGUpXHJcbiAgICAgIH0pXHJcbiAgICAgIC50aGVuKGZ1bmN0aW9uKHJlc3BvbnNlKSB7XHJcbiAgICAgICAgaWYgKCFyZXNwb25zZS5vaykge1xyXG4gICAgICAgICAgdGhyb3cgRXJyb3IocmVzcG9uc2Uuc3RhdHVzVGV4dCk7XHJcbiAgICAgICAgfSBlbHNlIHtcclxuICAgICAgICAgIGNvbnNvbGUubG9nKGBzdWNjZXNzIHVwZGF0aW5nIGludml0YXRpb25gKVxyXG4gICAgICAgIH1cclxuICAgICAgICByZXR1cm4gcmVzcG9uc2U7XHJcbiAgICAgIH0pXHJcbiAgICAgIC5jYXRjaCgoZXJyb3IpID0+IHtcclxuICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvcjonLCBlcnJvcik7XHJcbiAgICAgIH0pO1xyXG4gICAgfVxyXG5cclxuICAgIC8vIGlzIGNhbGxlZCBldmVuIHdoZW4gdGhlcmUncyBubyBjaGFuZ2UgdG8gdGhlIGNlbGwuIGkgZG9uJ3Qga25vdyBpZiB0aGVyZSdzIGEgd2F5IHRvIGdldCBob29rcyBpbnRvIHRoZSBwcmV2aW91cyBzdGF0ZSBvZiB0aGUgcm93IGZyb20gaGVyZSAodG8gdGVsbCBpZiB0aGVyZSdzIGEgZGlmZmVyZW5jZSlcclxuICAgIGZ1bmN0aW9uIG9uQWZ0ZXJTYXZlQ2VsbChyb3csIGNlbGxOYW1lLCBjZWxsVmFsdWUpIHtcclxuICAgICAgY29uc3QgbWVhbCA9IHJvd1snbWVhbCddXHJcbiAgICAgIGNvbnN0IGF0dGVuZGluZyA9IHJvd1snYXR0ZW5kaW5nJ11cclxuICAgICAgY29uc3QgaW52aXRhdGlvbklkID0gcm93WydpbnZpdGF0aW9uSWQnXVxyXG4gICAgICBjb25zdCBndWVzdElkID0gcm93WydndWVzdElkJ11cclxuXHJcbiAgICAgIC8vIHVwZGF0ZSB3aWxsIGJlIG9uIGVhY2ggY2VsbCwgc28gd2Ugb25seSBuZWVkIHRvIHdvcnJ5IGFib3V0IG9uZSBndWVzdCBiZWluZyB1cGRhdGVkIGF0IGEgdGltZSAoc2luY2UgZWFjaCBndWVzdCBpcyBhIHJvdyBpbiB0aGUgdGFibGUpXHJcbiAgICAgIGxldCBpbnZpdGF0aW9uVXBkYXRlID0ge1xyXG4gICAgICAgIGludml0YXRpb25faWQ6IGludml0YXRpb25JZCxcclxuICAgICAgICByc3ZwZWQ6IHRydWUsXHJcbiAgICAgICAgZ3Vlc3RzOiBbXHJcbiAgICAgICAgICB7XHJcbiAgICAgICAgICAgIGd1ZXN0X2lkOiBndWVzdElkLFxyXG4gICAgICAgICAgICBhdHRlbmRpbmc6IGF0dGVuZGluZyxcclxuICAgICAgICAgICAgbWVhbDogbWVhbFxyXG4gICAgICAgICAgfVxyXG4gICAgICAgIF1cclxuICAgICAgfVxyXG4gICAgICBjb25zb2xlLmxvZyhgaW52aXRhdGlvbiB1cGRhdGU6ICR7SlNPTi5zdHJpbmdpZnkoaW52aXRhdGlvblVwZGF0ZSl9YClcclxuICAgICAgdXBkYXRlSW52aXRhdGlvbihpbnZpdGF0aW9uVXBkYXRlKVxyXG4gICAgfVxyXG5cclxuICAgIGZ1bmN0aW9uIG9uQmVmb3JlU2F2ZUNlbGwocm93LCBjZWxsTmFtZSwgY2VsbFZhbHVlKSB7XHJcbiAgICAgIC8vIFlvdSBjYW4gZG8gYW55IHZhbGlkYXRpb24gb24gaGVyZSBmb3IgZWRpdGluZyB2YWx1ZSxcclxuICAgICAgLy8gcmV0dXJuIGZhbHNlIGZvciByZWplY3QgdGhlIGVkaXRpbmdcclxuICAgICAgaWYgKGNlbGxOYW1lID09ICdtZWFsJykge1xyXG4gICAgICAgIGlmIChjZWxsVmFsdWUgIT0gJ0JVUkdFUicgJiYgY2VsbFZhbHVlICE9ICdDSElDS0VOJykge1xyXG4gICAgICAgICAgY29uc29sZS5sb2coYHRyeWluZyB0byBjaGFuZ2UgdG8gaW52YWxpZCBtZWFsOiAke2NlbGxWYWx1ZX1gKVxyXG4gICAgICAgICAgcmV0dXJuIGZhbHNlXHJcbiAgICAgICAgfVxyXG4gICAgICB9IGVsc2UgaWYgKGNlbGxOYW1lID09ICdhdHRlbmRpbmcnKSB7XHJcbiAgICAgICAgaWYgKGNlbGxWYWx1ZSAhPSAndHJ1ZScgJiYgY2VsbFZhbHVlICE9ICdmYWxzZScpIHtcclxuICAgICAgICAgIGNvbnNvbGUubG9nKGB0cnlpbmcgdG8gY2hhbmdlIHRvIGludmFsaWQgYXR0ZW5kaW5nOiAke2NlbGxWYWx1ZX1gKVxyXG4gICAgICAgICAgcmV0dXJuIGZhbHNlXHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICAgIHJldHVybiB0cnVlO1xyXG4gICAgfVxyXG5cclxuICAgIGNvbnN0IGNlbGxFZGl0UHJvcCA9IHtcclxuICAgICAgbW9kZTogJ2NsaWNrJyxcclxuICAgICAgYmx1clRvU2F2ZTogdHJ1ZSxcclxuICAgICAgYmVmb3JlU2F2ZUNlbGw6IG9uQmVmb3JlU2F2ZUNlbGwsIC8vIGEgaG9vayBmb3IgYmVmb3JlIHNhdmluZyBjZWxsXHJcbiAgICAgIGFmdGVyU2F2ZUNlbGw6IG9uQWZ0ZXJTYXZlQ2VsbCAgLy8gYSBob29rIGZvciBhZnRlciBzYXZpbmcgY2VsbFxyXG4gICAgfTtcclxuXHJcbiAgICBjb25zdCB0clN0eWxlID0gKHJvdywgcm93SW5kZXgpID0+IHtcclxuICAgICAgcmV0dXJuIHtcclxuICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6ICcjZTZkNWQ1J1xyXG4gICAgICB9O1xyXG4gICAgfVxyXG5cclxuICAgIGZ1bmN0aW9uIG15Q2VsbEZvcm1hdHRlcihjZWxsLCByb3cpIHtcclxuICAgICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgIHtjZWxsfVxyXG4gICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICBwIHtcclxuICAgICAgICAgICAgICBmb250LWZhbWlseTogJ0FyaWFsJ1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICk7XHJcbiAgICB9XHJcblxyXG4gICAgZnVuY3Rpb24gbXlBdHRlbmRpbmdDZWxsRm9ybWF0dGVyKGNlbGwsIHJvdykge1xyXG4gICAgICBsZXQgcmVzdWx0ID0gJ25vJ1xyXG4gICAgICBpZiAoY2VsbCA9PSB0cnVlKSB7XHJcbiAgICAgICAgcmVzdWx0ID0gJ3llcydcclxuICAgICAgfVxyXG4gICAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICA8cD5cclxuICAgICAgICAgICAge3Jlc3VsdH1cclxuICAgICAgICAgIDwvcD5cclxuICAgICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgcCB7XHJcbiAgICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdBcmlhbCdcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICApO1xyXG4gICAgfVxyXG5cclxuICAgIHJldHVybiAoXHJcbiAgICAgIDxMYXlvdXQ+XHJcbiAgICAgICAgPGgzPlxyXG4gICAgICAgICAgQ2xpY2sgYSBmaWVsZCB0byBlZGl0LlxyXG4gICAgICAgIDwvaDM+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgaDMge1xyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ0FyaWFsJztcclxuICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPEJvb3RzdHJhcFRhYmxlIGRhdGE9eyBndWVzdHMgfSAgY2VsbEVkaXQ9eyBjZWxsRWRpdFByb3AgfVxyXG4gICAgICAgICAgdGFibGVTdHlsZT17IHsgYm9yZGVyOiAnYmxhY2sgMXB4IHNvbGlkJyB9IH1cclxuICAgICAgICAgIGhlYWRlclN0eWxlPXsgeyBib3JkZXI6ICdibGFjayAxcHggc29saWQnIH0gfVxyXG4gICAgICAgICAgYm9keVN0eWxlPXsgeyBib3JkZXI6ICdibGFjayAxcHggc29saWQnIH0gfVxyXG4gICAgICAgICAgc3RyaXBlZD17IHRydWUgfVxyXG4gICAgICAgICAgaG92ZXI9eyB0cnVlIH0+XHJcbiAgICAgICAgICAgIDxUYWJsZUhlYWRlckNvbHVtblxyXG4gICAgICAgICAgICAgIGRhdGFGaWVsZD0nZ3Vlc3QnXHJcbiAgICAgICAgICAgICAgaXNLZXk9eyB0cnVlIH1cclxuICAgICAgICAgICAgICB3aWR0aD0nMTAlJ1xyXG4gICAgICAgICAgICAgIGRhdGFBbGlnbj0nY2VudGVyJ1xyXG4gICAgICAgICAgICAgIGRhdGFGb3JtYXQ9e215Q2VsbEZvcm1hdHRlcn0+XHJcbiAgICAgICAgICAgICAgR3Vlc3RcclxuICAgICAgICAgICAgPC9UYWJsZUhlYWRlckNvbHVtbj5cclxuICAgICAgICAgICAgPFRhYmxlSGVhZGVyQ29sdW1uXHJcbiAgICAgICAgICAgICAgZGF0YUZpZWxkPSdhdHRlbmRpbmcnXHJcbiAgICAgICAgICAgICAgZGF0YUFsaWduPSdjZW50ZXInXHJcbiAgICAgICAgICAgICAgd2lkdGg9JzEwJSdcclxuICAgICAgICAgICAgICB0aFN0eWxlPXsgeyAnZm9udFdlaWdodCc6ICdsaWdodGVyJyB9IH1cclxuICAgICAgICAgICAgICBkYXRhRm9ybWF0PXtteUF0dGVuZGluZ0NlbGxGb3JtYXR0ZXJ9PlxyXG4gICAgICAgICAgICAgIEF0dGVuZGluZ1xyXG4gICAgICAgICAgICA8L1RhYmxlSGVhZGVyQ29sdW1uPlxyXG4gICAgICAgICAgICA8VGFibGVIZWFkZXJDb2x1bW5cclxuICAgICAgICAgICAgICBkYXRhRmllbGQ9J21lYWwnXHJcbiAgICAgICAgICAgICAgZGF0YUFsaWduPSdjZW50ZXInXHJcbiAgICAgICAgICAgICAgd2lkdGg9JzEwJSdcclxuICAgICAgICAgICAgICB0ZFN0eWxlPXsgeyAnZm9udEZhY2UnOiAnQXJpYWwnIH0gfVxyXG4gICAgICAgICAgICAgIGRhdGFGb3JtYXQ9e215Q2VsbEZvcm1hdHRlcn0+XHJcbiAgICAgICAgICAgICAgTWVhbFxyXG4gICAgICAgICAgICA8L1RhYmxlSGVhZGVyQ29sdW1uPlxyXG4gICAgICAgIDwvQm9vdHN0cmFwVGFibGU+XHJcbiAgICAgIDwvTGF5b3V0PlxyXG4gICAgKTtcclxuICB9XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEludml0YXRpb247XHJcbiJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\josep\\\\dev\\\\wedding-ui\\\\pages\\\\invitation.js */"), __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_15__["BootstrapTable"], {
         data: guests,
+        cellEdit: cellEditProp,
+        tableStyle: {
+          border: 'black 1px solid'
+        },
+        headerStyle: {
+          border: 'black 1px solid'
+        },
+        bodyStyle: {
+          border: 'black 1px solid'
+        },
+        striped: true,
+        hover: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 171
         },
         __self: this
-      }, __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_13__["TableHeaderColumn"], {
+      }, __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_15__["TableHeaderColumn"], {
         dataField: "guest",
         isKey: true,
+        width: "10%",
+        dataAlign: "center",
+        dataFormat: myCellFormatter,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 177
         },
         __self: this
-      }, "Guest"), __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_13__["TableHeaderColumn"], {
+      }, "Guest"), __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_15__["TableHeaderColumn"], {
         dataField: "attending",
+        dataAlign: "center",
+        width: "10%",
+        thStyle: {
+          'fontWeight': 'lighter'
+        },
+        dataFormat: myAttendingCellFormatter,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 185
         },
         __self: this
-      }, "Attending"), __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_13__["TableHeaderColumn"], {
+      }, "Attending"), __jsx(react_bootstrap_table__WEBPACK_IMPORTED_MODULE_15__["TableHeaderColumn"], {
         dataField: "meal",
+        dataAlign: "center",
+        width: "10%",
+        tdStyle: {
+          'fontFace': 'Arial'
+        },
+        dataFormat: myCellFormatter,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 193
         },
         __self: this
       }, "Meal")));
@@ -29195,7 +30284,7 @@ function (_React$Component) {
               myUrl = 'http://localhost:8080/invitations/' + invitationId;
               console.log("url: ".concat(myUrl));
               _context.next = 6;
-              return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_11___default()(myUrl));
+              return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_13___default()(myUrl));
 
             case 6:
               response = _context.sent;
@@ -29218,53 +30307,13 @@ function (_React$Component) {
   }]);
 
   return Invitation;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component); // <Layout>
-//   <TableStyle>
-//     <table>
-//       <thead>
-//         <tr>
-//           <th>Guest</th>
-//           <th>Attending</th>
-//           <th>Meal</th>
-//         </tr>
-//       </thead>
-//       <tbody>
-//         {invitation.guests.map(guest =>
-//           <tr key={guest.guest_id}>
-//             <td>
-//               {guest.guest_name}
-//             </td>
-//             <td>
-//               {guest.attending.toString()}
-//             </td>
-//             <td>
-//               {guest.meal}
-//             </td>
-//           </tr>
-//         )}
-//       </tbody>
-//     </table>
-//   </TableStyle>
-// </Layout>
-// { <Table tableHeader={header} tableRows={rows}/>
-//     "invitation_id": 4,
-//     "rsvped": false,
-//     "guests": [
-//         {
-//             "guest_id": 4,
-//             "guest_name": "sophia korman",
-//             "attending": false,
-//             "invitation_id": 2
-//         }
-//     ]
-// }
-
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Invitation);
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Finvitation&absolutePagePath=C%3A%5CUsers%5Cjosep%5Cdev%5Cwedding-ui%5Cpages%5Cinvitation.js ***!
   \******************************************************************************************************************************************/
@@ -29287,5 +30336,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=invitation.js.map

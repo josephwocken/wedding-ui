@@ -1,0 +1,11 @@
+{
+  "invitation_id": 11,
+  "rsvped": true,
+  "guests": [
+    {
+      "guest_id": 4,
+      "attending": false,
+      "meal": "BURGER"
+    }
+  ]
+}

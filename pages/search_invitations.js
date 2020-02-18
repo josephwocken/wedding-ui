@@ -104,6 +104,14 @@ class SearchInvitations extends React.Component {
             </label>
             <input type="submit" value="Submit" />
           </form>
+          <style jsx>{`
+            label {
+              font-family: 'Arial';
+            }
+            input {
+              font-family: 'Arial';
+            }
+          `}</style>
         </div>
         <div>
           <br></br>
@@ -129,6 +137,14 @@ class SearchInvitations extends React.Component {
               )}
             </tbody>
           </table>
+          <style jsx>{`
+            th {
+              font-family: 'Arial';
+            }
+            td {
+              font-family: 'Arial';
+            }
+          `}</style>
         </div>
       </div>
     );

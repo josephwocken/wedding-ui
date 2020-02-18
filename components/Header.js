@@ -1,23 +1,50 @@
 import Link from 'next/link';
 
 const linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  textDecoration: 'underline'
 };
+
 
 const Header = () => (
   <div>
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <a>Home</a>
     </Link>
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <a>About</a>
     </Link>
     <Link href="/guest_list">
-      <a style={linkStyle}>Guest List</a>
+      <a>Guest List</a>
     </Link>
     <Link href="/search_invitations">
-      <a style={linkStyle}>Search Invitations</a>
+      <a>Search Invitations</a>
     </Link>
+    <style jsx>{`
+      h1,
+      a {
+        font-family: 'Arial';
+      }
+
+      ul {
+        padding: 0;
+      }
+
+      li {
+        list-style: none;
+        margin: 5px 0;
+      }
+
+      a {
+        text-decoration: underline;
+        color: blue;
+        margin: 15px;
+      }
+
+      a:hover {
+        opacity: 0.6;
+      }
+    `}</style>
   </div>
 )
 
