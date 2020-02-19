@@ -11,3 +11,4 @@ Next.js website for a wedding
     * so i need to either do one call to update /invitation for each guest, or
     * do one call per guest in invitation go /guests
 * change font
+* sophie's thing
